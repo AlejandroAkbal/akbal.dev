@@ -1,0 +1,65 @@
+/* -------- Akbal's -------- */
+html {
+    scroll-behavior: smooth;
+    animation: fadein 1s;
+}
+
+/* -------- Cuerpo -------- */
+
+body,
+html {
+    background-color: #7a498c;
+    height: 100%;
+}
+
+
+.bg {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+#jumbo {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* -------- Pantalla -------- */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .bg {
+        background-image: url(../images/logo480x600.png);
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .bg {
+        background-image: url(../images/logo770x963.png);
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .bg {
+        background-image: url(../images/logo1000x1250.png);
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1999px) {
+    .bg {
+        background-image: url(../images/logo2000x2500.png);
+    }
+}
+
+/* -------- Animaciones -------- */
+
+@keyframes fadein {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
