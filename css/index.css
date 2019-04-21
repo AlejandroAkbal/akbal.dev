@@ -1,7 +1,7 @@
 /* -------- Cuerpo -------- */
 body,
 html {
-    background-color: #212121;
+    background-color: #181A1B;
     height: 100%;
 }
 
@@ -16,18 +16,21 @@ html {
     height: 100%;
 }
 
-/* --- Navegacion --- */
+/* --- Navbar --- */
 
 .navbar {
-    background-color: #212121;
+    background-color: #181A1B;
     bottom: 0;
     z-index: 100;
+}
+
+.logo {
+    margin-bottom: 5vh;
 }
 
 /* -------- Cosmetico -------- */
 
 .separador {
-    /*    border-top: solid 1px #7a498c;*/
     background: -o-linear-gradient(315deg, #a94587 0%, #6f5a95 100%);
     background: linear-gradient(135deg, #a94587 0%, #6f5a95 100%);
     width: 100%;
@@ -35,18 +38,32 @@ html {
     position: relative;
 }
 
-/* -------- Proyectos -------- */
+/* --- Scrollbar --- */
 
-
-
-/* -------- Aplicacion de Animaciones -------- */
-
-.cursor {
-    -webkit-animation: 1s blink step-end infinite;
-    animation: 1s blink step-end infinite
+body::-webkit-scrollbar {
+    background: linear-gradient(135deg, #6f5a95 0%, #a94587 100%);
+    width: 1em;
 }
 
-/* -------- Pantalla -------- */
+body::-webkit-scrollbar-thumb {
+    background-color: #181A1B;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+/* -------- Proyectos -------- */
+
+.border-oscuro {
+    border: 1px solid #6f5a95;
+}
+
+#enviar {
+    background: -o-linear-gradient(315deg, #a94587 0%, #6f5a95 100%);
+    background: linear-gradient(135deg, #a94587 0%, #6f5a95 100%);
+}
+
+/* -------- Reglas de pantalla -------- */
 
 @media only screen and (min-width: 576px) {
     .bg {
@@ -76,7 +93,7 @@ html {
     }
 
     50% {
-        color: #212121;
+        color: #181A1B;
     }
 }
 
@@ -88,6 +105,13 @@ html {
     }
 
     50% {
-        color: #212121;
+        color: #181A1B;
     }
+}
+
+/* --- Aplicacion de Animaciones --- */
+
+.cursor {
+    -webkit-animation: 1s blink step-end infinite;
+    animation: 1s blink step-end infinite
 }
