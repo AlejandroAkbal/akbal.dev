@@ -1,6 +1,5 @@
 
-log/index.html
-pruebas/index.html
-pruebas/prueba.html
-pruebas/animacion.html
-pruebas/slider.html
+log/
+pruebas/
+node_modules/
+package-lock.json
