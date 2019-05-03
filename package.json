@@ -4,8 +4,7 @@
   "description": "La nueva pagina hecha con Jquery, BootStrap 4, PHP (Posiblemente cambie) y algo mas que se me vaya ocurriendo por el camino, como FontAwesome.",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html -d build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,11 +16,5 @@
   "bugs": {
     "url": "https://github.com/VoidlessSeven7/new-web/issues"
   },
-  "homepage": "https://github.com/VoidlessSeven7/new-web#readme",
-  "devDependencies": {
-    "cssnano": "^4.1.10"
-  },
-  "dependencies": {
-    "jquery": "^3.4.1"
-  }
+  "homepage": "https://github.com/VoidlessSeven7/new-web#readme"
 }
