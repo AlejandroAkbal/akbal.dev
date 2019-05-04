@@ -41,14 +41,15 @@ html {
 }
 
 /* --- Color de tabla de skills ---
-/* Eliminar 
+// Eliminar 
 h3, dd {
     color: rgb(182, 68, 144);
 }
-/* Eliminar 
+// Eliminar 
 dt {
     color: rgb(238, 194, 255);
 }
+*/
 
 /* --- Color de texto de GitHub --- */
 .text-primario {
@@ -57,7 +58,7 @@ dt {
 
 a, .text-secundario {
     color: #fcb4ff;
-} */
+} 
 
 /* ----- Scrollbar ----- */
 
