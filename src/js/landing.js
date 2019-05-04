@@ -11,10 +11,7 @@ function makeFullscreen() {
 
     if (isFullscreen === false) {
 
-        /* - Esconder raton y decorativos - */
-        $('body').css({
-            cursor: 'none'
-        });
+        /* - Esconder decorativos - */
         $('nav').fadeOut();
         $("body").css("overflow", "hidden");
 
@@ -33,10 +30,7 @@ function makeFullscreen() {
 
     } else if (isFullscreen === true) {
 
-        /* - Aparecer raton y decorativos - */
-        $('body').css({
-            cursor: 'default'
-        });
+        /* - Aparecer decorativos - */
         $('nav').fadeIn();
         $("body").css("overflow", "auto");
 

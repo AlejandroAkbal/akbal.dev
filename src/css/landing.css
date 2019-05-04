@@ -5,8 +5,7 @@ html {
     height: 100%;
 }
 
-header {
-    min-height: 100vh;
+.fill-available {
     min-height: -webkit-fill-available;
     min-height: -moz-available;
     min-height: fill-available;
@@ -41,11 +40,26 @@ header {
     position: relative;
 }
 
-a {
-    color: #17a2b8;
+/* --- Color de tabla de skills ---
+/* Eliminar 
+h3, dd {
+    color: rgb(182, 68, 144);
+}
+/* Eliminar 
+dt {
+    color: rgb(238, 194, 255);
 }
 
-/* --- Scrollbar --- */
+/* --- Color de texto de GitHub --- */
+.text-primario {
+    color: #a94587;
+}
+
+a, .text-secundario {
+    color: #fcb4ff;
+} */
+
+/* ----- Scrollbar ----- */
 
 body::-webkit-scrollbar {
     background: -webkit-linear-gradient(315deg, #6f5a95 0%, #a94587 100%);
