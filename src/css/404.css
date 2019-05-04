@@ -1,0 +1,59 @@
+/* -------- Cuerpo -------- */
+
+body {
+    background: #dedede;
+}
+
+.page-wrap {
+    min-height: 100vh;
+}
+
+.anim {
+    text-shadow: 0px 0px 1px;
+
+    -webkit-animation: shadow 3s infinite;
+
+    animation: shadow 3s infinite;
+}
+
+.bg {
+    background-image: url(/images/fondo480x600.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+/* -------- Pantalla -------- */
+
+@media only screen and (min-width: 576px) {
+    .bg {
+        background-image: url(/images/fondo770x963.jpg);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .bg {
+        background-image: url(/images/fondo1000x1250.jpg);
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .bg {
+        background-image: url(/images/logo2000x2500.jpg);
+    }
+}
+
+/* -------- Animaciones -------- */
+
+@-webkit-keyframes shadow {
+    50% {
+        text-shadow: 0px 0px 20px;
+    }
+}
+
+@keyframes shadow {
+    50% {
+        text-shadow: 0px 0px 20px;
+    }
+}

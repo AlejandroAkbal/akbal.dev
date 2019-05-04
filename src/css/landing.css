@@ -15,7 +15,7 @@ header {
 /* --- Fondo --- */
 
 .bg {
-    background-image: url(/images/fondo480x600.jpg);
+    background-image: url(../images/fondo480x600.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -85,19 +85,19 @@ body::-webkit-scrollbar-thumb {
 
 @media only screen and (min-width: 576px) {
     .bg {
-        background-image: url(/images/fondo770x963.jpg);
+        background-image: url(../images/fondo770x963.jpg);
     }
 }
 
 @media only screen and (min-width: 768px) {
     .bg {
-        background-image: url(/images/fondo1000x1250.jpg);
+        background-image: url(../images/fondo1000x1250.jpg);
     }
 }
 
 @media only screen and (min-width: 992px) {
     .bg {
-        background-image: url(/images/logo2000x2500.jpg);
+        background-image: url(../images/logo2000x2500.jpg);
     }
 }
 
