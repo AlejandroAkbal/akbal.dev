@@ -49,12 +49,14 @@ function html() {
 // CSS processing
 function css() {
   const out = build;
+  const testWhitelist = ['tooltip', 'fade', 'show'];
+  const testWhitelistPatterns = [/tooltip/];
 
   return gulp.src(src + '**/*.css')
     .pipe(postcss([
       assets({ loadPaths: ['images/'] }),
       autoprefixer({ browsers: ['last 2 versions', '> 2%'] }),
-      purgecss({content: [src + '**/*.html']}),
+      purgecss({content: [src + '**/*.html'], whitelist: testWhitelist, whitelistPatterns: testWhitelistPatterns}),
       mqpacker,
       cssnano
     ]))
