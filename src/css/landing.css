@@ -6,9 +6,9 @@ html {
 }
 
 .fill-available {
-    min-height: -webkit-fill-available;
-    min-height: -moz-available;
-    min-height: fill-available;
+    min-height: -webkit-fill-available !important;
+    min-height: -moz-available !important;
+    min-height: fill-available !important;
 }
 
 /* --- Fondo --- */
