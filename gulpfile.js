@@ -9,7 +9,6 @@ const
   postcss = require('gulp-postcss'),
   assets = require('postcss-assets'),
   autoprefixer = require('autoprefixer'),
-  mqpacker = require('css-mqpacker'),
   cssnano = require('cssnano'),
   purgecss = require('@fullhuman/postcss-purgecss'),
   uglify = require('gulp-uglify');
@@ -69,7 +68,6 @@ function css() {
       assets({ loadPaths: ['images/'] }),
       autoprefixer({ browsers: ['last 2 versions', '> 2%'] }),
       purgecss({content: [src + '**/*.html'], whitelist: testWhitelist, whitelistPatterns: testWhitelistPatterns}),
-      mqpacker,
       cssnano
     ]))
     .pipe(gulp.dest(out));
