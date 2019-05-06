@@ -23,7 +23,8 @@ html {
 
 /* ----- Cosas generales ----- */
 .fill-available {
-    min-height: stretch !important;
+    min-height: fill-available;
+    min-height: stretch;
 }
 
 /* - Scrollbar - */
