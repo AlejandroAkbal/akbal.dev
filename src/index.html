@@ -22,38 +22,46 @@
 <body id="inicio">
 
     <!-- ----- Inicio ----- -->
-    <header class="min-vh-100 fill-available container-fluid bg d-flex align-items-center justify-content-center">
+    <section class="w-100 h-100 min-vh-100 fill-available bg d-flex flex-column justify-content-between">
 
-        <div class="text-center">
+        <!-- Logo y nombre -->
+        <div class="text-center m-auto">
 
-            <img src="images/ALogo.png" onclick="makeFullscreen()" class="img-fluid" alt="Logo">
-            <h1 class="display-4 text-light">Alejandro Akbal<span class="cursor">|</span> </h1>
+            <div>
+                <img src="images/ALogo.png" onclick="makeFullscreen()" class="img-fluid" alt="Logo">
+                <h1 class="display-4 text-light">Alejandro Akbal<span class="cursor">|</span> </h1>
+            </div>
 
         </div>
 
-    </header>
+        <!-- ----- Navbar ----- -->
+        <nav class="w-100 navbar overflow-hidden justify-content-around p-3 font-weight-light">
 
-    <!-- ----- Navbar ----- -->
-    <nav class="navbar p-3 justify-content-around container-fluid position-absolute overflow-hidden">
+            <!-- Links -->
+            <a href="#sobre_mi">Sobre mi</a>
+            <a href="#proyectos">Proyectos</a>
+            <a href="#contacto">Contacto</a>
 
-        <a href="#sobre_mi">Sobre mi</a>
-        <a href="#proyectos">Proyectos</a>
-        <a href="#contacto">Contacto</a>
+        </nav>
 
-    </nav>
+
+    </section>
 
     <!-- ----- Empieza el contenido ----- -->
     <main>
 
-        <!-- ----- Separador ----- -->
+        <!-- ----- ** Separador ** ----- -->
         <div class="separador"></div>
 
         <!-- ----- Apartado sobre mi ----- -->
-        <section id="sobre_mi" class="p-2 text-white">
+        <section id="sobre_mi" class="text-white">
+
+            <!-- Explicacion -->
             <div class="container-fluid my-5">
                 <div class="row">
 
-                    <p class="text-center p-2 h4 mt-2 col-12">Soy un <b class="text-info">fullstack web developer</b> en Ibiza, España.</p>
+                    <p class="text-center p-2 h4 col-12 font-weight-light">Soy un <span class="text-info"><u>fullstack
+                                web developer</u></span> en Ibiza, España.</p>
 
                     <!-- ----- Conocimientos ----- -->
                     <div class="d-flex align-content-center flex-wrap container mx-auto mt-3">
@@ -61,37 +69,38 @@
                         <dl class="row text-white p-3 mx-auto border-secundario">
 
                             <dt class="col-6">Web</dt>
-                            <dd class="col-6 text-right">Bootstrap, JQuery, Ajax, Popper.js, Tailwin</dd>
+                            <dd class="col-6 text-right font-weight-light">Bootstrap, JQuery, React, NPM, Gulp, Tailwind
+                            </dd>
 
                             <dt class="col-6"></dt>
                             <dd class="col-6"></dd>
 
                             <dt class="col-6">Lenguajes</dt>
-                            <dd class="col-6 text-right">HTML, CSS, JavaScript, PHP, Bash, Batch</dd>
+                            <dd class="col-6 text-right font-weight-light">HTML, CSS, JavaScript, PHP, Bash, Batch</dd>
 
                             <dt class="col-6"></dt>
                             <dd class="col-6"></dd>
 
                             <dt class="col-6">Aplicaciones</dt>
-                            <dd class="col-6 text-right">Apache, Nginx, MySQL, MariaDB</dd>
+                            <dd class="col-6 text-right font-weight-light">Apache, Nginx, MySQL, MariaDB</dd>
 
                             <dt class="col-6"></dt>
                             <dd class="col-6"></dd>
 
                             <dt class="col-6">Infraestructuras</dt>
-                            <dd class="col-6 text-right">Google Compute Engine</dd>
+                            <dd class="col-6 text-right font-weight-light">Google Compute Engine</dd>
 
                             <dt class="col-6"></dt>
                             <dd class="col-6"></dd>
 
                             <dt class="col-6">Sistemas Operativos</dt>
-                            <dd class="col-6 text-right">GNU/Linux, Windows </dd>
+                            <dd class="col-6 text-right font-weight-light">GNU/Linux, Windows </dd>
 
                             <dt class="col-6"></dt>
                             <dd class="col-6"></dd>
 
                             <dt class="col-6">Content Management System</dt>
-                            <dd class="col-6 text-right">Wordpress, Joomla</dd>
+                            <dd class="col-6 text-right font-weight-light">Wordpress, Joomla</dd>
 
                         </dl>
                     </div>
@@ -104,13 +113,13 @@
                             <dd class="col-6"></dd>
 
                             <dt class="col-6">Aprendiendo</dt>
-                            <dd class="col-6 text-right">ES6 JavaScript, Hugo, Kotlin</dd>
+                            <dd class="col-6 text-right font-weight-light">ES6 JavaScript, Cocinar solo</dd>
 
                             <dt class="col-6"></dt>
                             <dd class="col-6"></dd>
 
                             <dt class="col-6">Programas</dt>
-                            <dd class="col-6 text-right">Adobe CC Suite, Microsoft Office</dd>
+                            <dd class="col-6 text-right font-weight-light">Adobe CC Suite, Microsoft Office</dd>
 
                             <dt class="col-6"></dt>
                             <dd class="col-6"></dd>
@@ -119,66 +128,92 @@
                     </div>
 
                     <!-- ----- Informacion extra ----- -->
-                    <p class="col-12 text-center mt-3 text-primario">Puedes ver mi codigo en <a href="https://github.com/VoidlessSeven7"><u>Github</u></a></p>
+                    <p class="col-12 text-center mt-3 text-primario font-weight-light">Puedes ver mi codigo en <a
+                            href="https://github.com/VoidlessSeven7"><u>Github</u></a></p>
 
 
                 </div>
             </div>
         </section>
 
-        <!-- ----- Separador ----- -->
+        <!-- ----- ** Separador ** ----- -->
         <div class="separador"></div>
 
         <!-- ----- Apartado proyectos ----- -->
-        <section id="proyectos" class="p-2">
-            <div class="my-5 w-100">
-                <div class="">
+        <section id="proyectos" class="text-white mb-5">
 
-                    <a class="pt-3" href="https://old.akbal.tk/" data-toggle="tooltip" data-placement="auto" title="Mi primera pagina web"> <img src="images/proyecto3.jpg" > </a>
-                    <a class="px-2" href="webmin/" data-toggle="tooltip" data-placement="auto" title="La primera pagina que hice con Bootstrap"> <img src="images/proyecto1.jpg" > </a>
-                    <a class="" href="https://old.akbal.tk/temas" data-toggle="tooltip" data-placement="auto" title="Un proyecto de temas 'personalizados' en mi primera pagina web"> <img src="images/proyecto6.jpg" > </a>
-                    <a class="px-2" href="https://old.akbal.tk/clicker" data-toggle="tooltip" data-placement="auto" title="Un proyecto para probar mi JavaScript"> <img src="images/proyecto2.jpg" > </a>
-                    <a class="" href="cambios/" data-toggle="tooltip" data-placement="auto" title="Donde registro todos los cambios a esta web"> <img src="images/proyecto4.jpg" > </a>
-                    <a class="px-2 pb-3" href="" data-toggle="tooltip" data-placement="auto" title="nada"> <img src="images/proyecto5.jpg" > </a>
+            <!-- Titulo -->
+            <div class="container mt-5 mb-4">
+                <h3 class="text-center text-sm-left font-weight-light"><u>Proyectos</u></h3>
+            </div>
+
+            <!-- Contenido -->
+            <div class="w-100 mb-5 px-2">
+
+                <div>
+
+                    <a class="pt-3" href="https://old.akbal.tk/" data-toggle="tooltip" data-placement="auto"
+                        title="Mi primera pagina web"> <img src="images/proyecto3.jpg"> </a>
+                    <a class="px-2" href="webmin/" data-toggle="tooltip" data-placement="auto"
+                        title="La primera pagina que hice con Bootstrap"> <img src="images/proyecto1.jpg"> </a>
+                    <a class="" href="https://old.akbal.tk/temas" data-toggle="tooltip" data-placement="auto"
+                        title="Un proyecto de temas 'personalizados' en mi primera pagina web"> <img
+                            src="images/proyecto6.jpg"> </a>
+                    <a class="px-2" href="https://old.akbal.tk/clicker" data-toggle="tooltip" data-placement="auto"
+                        title="Un proyecto para probar mi JavaScript"> <img src="images/proyecto2.jpg"> </a>
+                    <a class="" href="cambios/" data-toggle="tooltip" data-placement="auto"
+                        title="Donde registro todos los cambios a esta web"> <img src="images/proyecto4.jpg"> </a>
+                    <a class="px-2 pb-3" href="" data-toggle="tooltip" data-placement="auto" title="nada"> <img
+                            src="images/proyecto5.jpg"> </a>
 
                 </div>
             </div>
         </section>
 
-        <!-- ----- Separador ----- -->
+        <!-- ----- ** Separador ** ----- -->
         <div class="separador"></div>
 
         <!-- ----- Apartado contacto ----- -->
-        <section id="contacto" class="p-2 text-white">
-            <div class="container my-5">
-                <h3 class="mb-4"><u>Contacto</u></h3>
+        <section id="contacto" class="text-white container mb-5">
 
+            <!-- Titulo -->
+            <div class="mt-5 mb-4">
+                <h3 class="text-center text-sm-left font-weight-light"><u>Contacto</u></h3>
+            </div>
+
+            <!-- Contenido -->
+            <div>
+
+                <!-- Formulario de contacto -->
                 <form action="https://formspree.io/saalejandroromero@gmail.com" method="POST">
                     <div class="form-row">
 
                         <div class="form-group col-md-6">
-                            <input type="text" class="form-control border-primario" id="name" placeholder="Nombre" name="name" required>
+                            <input type="text" class="form-control border-primario font-weight-light" id="name" placeholder="Nombre"
+                                name="name" required>
                         </div>
 
                         <div class="form-group col-md-6">
-                            <input type="email" class="form-control border-primario" id="email" placeholder="email@ejemplo.com" name="email" required>
-                        </div>
-
-                        <div class="form-group col">
-                            <input type="text" class="form-control border-primario" id="subject" placeholder="Asunto" name="subject" required>
+                            <input type="email" class="form-control border-primario font-weight-light" id="email"
+                                placeholder="email@ejemplo.com" name="email" required>
                         </div>
 
                         <div class="form-group col-12">
-                            <textarea type="text" class="form-control border-primario" id="message" placeholder="Mensaje" name="message" required></textarea>
+                            <input type="text" class="form-control border-primario font-weight-light" id="subject" placeholder="Asunto"
+                                name="subject" required>
                         </div>
 
-                        <div class="text-center col">
-                            <input id="enviar" type="submit" class="btn btn-block rounded-0 text-white py-2" value="Enviar">
+                        <div class="form-group col-12">
+                            <textarea type="text" class="form-control border-primario font-weight-light" id="message"
+                                placeholder="Mensaje" name="message" required></textarea>
                         </div>
 
+                        <div class="text-center col-12">
+                            <input id="enviar" type="submit" class="btn btn-block rounded-0 text-white py-2 font-weight-light"
+                                value="Enviar">
+                        </div>
                     </div>
                 </form>
-
             </div>
         </section>
 
@@ -189,4 +224,6 @@
     <script type="text/javascript" src="dependencies/bootstrap.bundle.min.js" defer></script>
     <script type="text/javascript" src="js/landing.js" defer></script>
 
-</body></html>
+</body>
+
+</html>
