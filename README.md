@@ -19,4 +19,4 @@ gulp build
 ```
 
 ### Puedes visitarla en:
-##### https://www.akbal.tk/ o https://voidlessseven7.github.io/new-web/
+##### https://www.akbal.dev/ o https://voidlessseven7.github.io/new-web/
