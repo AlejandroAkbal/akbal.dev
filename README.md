@@ -1,8 +1,7 @@
-# Nueva web (2019)
-## La nueva pagina hecha con:
+# Pagina de portfolio para 2019
+## Hecha con las tecnologias web:
 - Jquery
 - BootStrap 4
-- PHP (Posiblemente cambie)
 
 ######
 
@@ -12,11 +11,11 @@
 - Autoprefixer
 - Etc.
 
-### Para usar NPM y compilarlo a la forma final:
+### Para usar NodeJS y optimizarlo a su estado de desarrollo:
 ```
 npm install
 gulp build
 ```
 
 ### Puedes visitarla en:
-##### https://www.akbal.dev/ o https://voidlessseven7.github.io/new-web/
+##### https://www.akbal.dev/ o https://voidlessseven7.github.io/Portfolio-2019/
