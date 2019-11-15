@@ -59,15 +59,14 @@ exports.js = js;
 // CSS processing
 function css() {
   const out = build;
-  const testWhitelist = ['tooltip', 'fade', 'show'];
-  const testWhitelistPatterns = [/tooltip/];
+  const testWhitelistPatterns = [/tooltip/, /fade/, /show/];
 
   return gulp.src(src + '**/*.css')
     .pipe(newer(out))
     .pipe(postcss([
       assets({ loadPaths: ['images/'] }),
       autoprefixer({ overrideBrowserslist: ['last 2 versions', '> 2%'] }),
-      purgecss({ content: [src + '**/*.html'], whitelist: testWhitelist, whitelistPatterns: testWhitelistPatterns }),
+      purgecss({ content: [src + '**/*.html'], whitelistPatterns: testWhitelistPatterns }),
       cssnano
     ]))
     .pipe(gulp.dest(out));
