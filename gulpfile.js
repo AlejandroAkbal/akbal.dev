@@ -13,37 +13,37 @@ const
   purgecss = require('@fullhuman/postcss-purgecss'),
   uglify = require('gulp-uglify');
 
-  // development mode?
-  // devBuild = (process.env.NODE_ENV !== 'production'),
+// development mode?
+// devBuild = (process.env.NODE_ENV !== 'production'),
 
-  // folders
-  src = './src/',
+// folders
+src = './src/',
   build = './build/'
   ;
 
-  // image processing
+// image processing
 function images() {
 
-    const out = build + 'images/';
-  
-    return gulp.src(src + 'images/**/*')
-      .pipe(newer(out))
-      .pipe(imagemin({ optimizationLevel: 5 }))
-      .pipe(gulp.dest(out));
-  
-  };
-  exports.images = images;
+  const out = build + 'images/';
 
-  // HTML processing
+  return gulp.src(src + 'images/**/*')
+    .pipe(newer(out))
+    .pipe(imagemin({ optimizationLevel: 5 }))
+    .pipe(gulp.dest(out));
+
+};
+exports.images = images;
+
+// HTML processing
 function html() {
-    const out = build;
-  
-    return gulp.src(src + '**/*.html')
-      .pipe(newer(out))
-      .pipe(htmlclean())
-      .pipe(gulp.dest(out));
-  }
-  exports.html = gulp.series(images, html);
+  const out = build;
+
+  return gulp.src(src + '**/*.html')
+    .pipe(newer(out))
+    .pipe(htmlclean())
+    .pipe(gulp.dest(out));
+}
+exports.html = gulp.series(images, html);
 
 // FALTA JAVASCRIPT
 function js() {
@@ -66,8 +66,8 @@ function css() {
     .pipe(newer(out))
     .pipe(postcss([
       assets({ loadPaths: ['images/'] }),
-      autoprefixer({ browsers: ['last 2 versions', '> 2%'] }),
-      purgecss({content: [src + '**/*.html'], whitelist: testWhitelist, whitelistPatterns: testWhitelistPatterns}),
+      autoprefixer({ overrideBrowserslist: ['last 2 versions', '> 2%'] }),
+      purgecss({ content: [src + '**/*.html'], whitelist: testWhitelist, whitelistPatterns: testWhitelistPatterns }),
       cssnano
     ]))
     .pipe(gulp.dest(out));

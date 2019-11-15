@@ -3,6 +3,10 @@ $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
 });
 
+/* --- Analiticas --- */
+insights.init("X0t9aMCKORpl74Z3");
+insights.trackPages();
+
 /* --- Modo fondo de pantalla --- */
 var elem = document.documentElement;
 var isFullscreen = false;
