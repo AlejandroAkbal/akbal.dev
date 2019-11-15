@@ -18,4 +18,4 @@ gulp build
 ```
 
 ### Puedes visitarla en:
-##### https://www.akbal.dev/ o https://voidlessseven7.github.io/Portfolio-2019/
+##### https://akbal.dev/ o https://voidlessseven7.github.io/Portfolio-2019/
