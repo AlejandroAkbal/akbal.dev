@@ -1,21 +1,24 @@
-# Pagina de portfolio para 2019
-## Hecha con las tecnologias web:
+# Portfolio
+
+[https://akbal.dev](https://akbal.dev)
+
+## Technologies
+
+- NodeJS
+- NPM
+
+## Web Technologies
+
 - Jquery
 - BootStrap 4
-
-######
-
-- NPM
 - Gulp
 - Gulp-PostCSS
 - Autoprefixer
 - Etc.
 
-### Para usar NodeJS y optimizarlo a su estado de desarrollo:
-```
+### Development
+
+```sh
 npm install
 gulp build
 ```
-
-### Puedes visitarla en:
-##### https://akbal.dev/ o https://voidlessseven7.github.io/Portfolio-2019/
