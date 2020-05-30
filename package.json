@@ -4,7 +4,7 @@
   "description": "La nueva pagina hecha con Jquery, BootStrap 4, PHP (Posiblemente cambie) y algo mas que se me vaya ocurriendo por el camino, como FontAwesome.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
