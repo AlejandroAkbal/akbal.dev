@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VoidlessSeven7/new-web.git"
+    "url": "git+https://github.com/AlejandroAkbal/akbal.dev.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VoidlessSeven7/new-web/issues"
+    "url": "https://github.com/AlejandroAkbal/akbal.dev/issues"
   },
-  "homepage": "https://github.com/VoidlessSeven7/new-web#readme",
+  "homepage": "https://github.com/AlejandroAkbal/akbal.dev#readme",
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.2.0",
     "autoprefixer": "^9.5.1",
