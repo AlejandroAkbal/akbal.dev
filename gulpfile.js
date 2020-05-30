@@ -18,7 +18,7 @@ const
 
 // folders
 src = './src/',
-  build = './build/'
+  build = './dist/'
   ;
 
 // image processing
