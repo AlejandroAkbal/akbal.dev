@@ -1,5 +1,7 @@
 # Portfolio
 
+_The site is completely outdated, updates are only for maintenance_
+
 [https://akbal.dev](https://akbal.dev)
 
 ## Technologies
