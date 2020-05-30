@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/AlejandroAkbal/akbal.dev#readme",
   "devDependencies": {
-    "@fullhuman/postcss-purgecss": "^1.2.0",
+    "@fullhuman/postcss-purgecss": "^2.2.0",
     "autoprefixer": "^9.5.1",
     "cssnano": "^4.1.10",
     "gulp": "^4.0.1",
