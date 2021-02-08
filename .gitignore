@@ -1,8 +1,0 @@
-
-log/
-pruebas/
-node_modules/
-build/
-.cache/
-dist/
-package-lock.json
