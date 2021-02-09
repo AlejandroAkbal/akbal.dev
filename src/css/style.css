@@ -30,11 +30,7 @@ html {
 }
 
 .link {
-  @apply text-orchid-400 hover:text-orchid-500 link__ring;
-}
-
-.link__ring {
-  @apply focus:ring focus:ring-offset-2 focus:ring-orchid-400;
+  @apply text-orchid-400 hover:text-orchid-500 focus:ring focus:ring-offset-2 focus:ring-orchid-400;
 }
 
 .spacer {
