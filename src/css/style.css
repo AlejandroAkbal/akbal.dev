@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.link {
+  @apply text-orchid-400 hover:text-orchid-500 link__ring;
+}
+
+.link__ring {
+  @apply focus:ring focus:ring-offset-2 focus:ring-orchid-400;
+}
+
