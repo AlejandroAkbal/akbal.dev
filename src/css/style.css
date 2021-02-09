@@ -9,3 +9,7 @@
   @apply focus:ring focus:ring-offset-2 focus:ring-orchid-400;
 }
 
+.spacer {
+  @apply h-px bg-gradient-to-r from-a-violet-500 to-a-purple-500;
+}
+
