@@ -1,6 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/**
+*
+* Defaults
+*
+**/
+
+html {
+  animation: slide_in_top 1s;
+
+  scroll-behavior: smooth;
+  /* overscroll-behavior: none; */
+}
+
 .link {
   @apply text-orchid-400 hover:text-orchid-500 link__ring;
 }
@@ -13,3 +27,21 @@
   @apply h-px bg-gradient-to-r from-a-violet-500 to-a-purple-500;
 }
 
+/**
+*
+* Animations
+*
+**/
+@keyframes slide_in_top {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+}
