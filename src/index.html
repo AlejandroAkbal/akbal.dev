@@ -46,6 +46,75 @@
     <div class="spacer"></div>
 
     <main>
+
+      <!-- Contact -->
+      <section id="contact" class="container__outer">
+        <div class="container__inner">
+          <div>
+            <h2 class="text-lg font-medium leading-6 text-gray-200">Contact</h2>
+            <p class="mt-1 text-sm text-gray-400">
+              Tell me about an interesting business offer, something that you
+              wanted to ask, or anything really.
+            </p>
+          </div>
+
+          <form
+            method="GET"
+            enctype="text/plain"
+            action="mailto:contact@akbal.dev"
+          >
+            <div class="grid grid-cols-1 mt-6 gap-y-6 gap-x-4 sm:grid-cols-6">
+              <!-- Subject -->
+              <div class="sm:col-span-2">
+                <label
+                  for="subject"
+                  class="block text-sm font-medium text-gray-300"
+                >
+                  Subject
+                </label>
+                <div class="mt-1">
+                  <input
+                    required
+                    type="text"
+                    name="subject"
+                    id="subject"
+                    class="block w-full text-white rounded-md shadow-sm bg-a-black-700 border-a-black-300 focus:ring-orchid-500 focus:border-orchid-500 sm:text-sm"
+                  />
+                </div>
+              </div>
+
+              <!-- Message -->
+              <div class="sm:col-span-6">
+                <label
+                  for="message"
+                  class="block text-sm font-medium text-gray-300"
+                >
+                  Message
+                </label>
+                <div class="mt-1">
+                  <textarea
+                    required
+                    id="message"
+                    name="body"
+                    rows="3"
+                    class="block w-full text-white rounded-md shadow-sm border-a-black-300 bg-a-black-700 focus:ring-orchid-500 focus:border-orchid-500 sm:text-sm"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+
+            <!-- Submit -->
+            <div class="flex mt-8 sm:justify-end">
+              <button
+                type="submit"
+                class="w-full px-4 py-2 text-sm font-medium text-white border border-transparent rounded-md shadow-sm bg-orchid-600 sm:w-auto hover:bg-orchid-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orchid-500"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
 
     <script type="module" src="./js/main"></script>
