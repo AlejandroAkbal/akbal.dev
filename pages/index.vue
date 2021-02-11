@@ -1,68 +1,315 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">akbal-dev</h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+  <div>
+    <header>
+      <!-- Hero image -->
+      <div
+        class="flex pb-10 overflow-hidden bg-gradient-to-br from-a-violet-500 to-a-purple-500"
+      >
+        <img
+          id="logo"
+          height="2048"
+          width="2048"
+          class="w-full h-auto m-auto transition-transform duration-500 ease-in-out delay-500 transform sm:max-w-screen-sm hover:scale-125"
+          src="https://raw.githubusercontent.com/AlejandroAkbal/brand/main/src/assets/Logo_transparent.png"
+          alt="Alejandro Akbal Logo"
+        />
       </div>
-    </div>
+
+      <!-- Navbar -->
+      <nav
+        class="p-4 bg-black -mt-14 bg-opacity-80"
+        style="backdrop-filter: blur(2px)"
+      >
+        <ul class="flex justify-around font-light">
+          <li>
+            <a class="link" href="#about_me">About me</a>
+          </li>
+
+          <li>
+            <a class="link" href="#projects">Projects</a>
+          </li>
+
+          <li>
+            <a class="link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <Spacer />
+
+    <main>
+      <!-- About me -->
+      <section id="about_me" class="container__outer">
+        <div class="container__inner">
+          <div>
+            <h2 class="text-lg font-medium leading-6 text-gray-200">
+              I'm Alejandro Akbal
+            </h2>
+            <div class="mt-1">
+              <p class="text-gray-300">
+                A software developer based on Spain, <i>UTC+1</i>.
+
+                <br />
+
+                I have many passions. I like to
+                <a
+                  class="link"
+                  href="https://redirect.akbal.dev/blog"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  write articles</a
+                >, tinker with
+                <a
+                  class="link"
+                  href="https://redirect.akbal.dev/github"
+                  target="_blank"
+                  rel="noopener"
+                >
+                  open-source projects</a
+                >, deploy services, and manage servers.
+
+                <br />
+                But overall, enjoy the surprises that life brings me.
+              </p>
+            </div>
+
+            <div class="mt-6">
+              <p class="text-center text-gray-200">Find me on</p>
+
+              <ul class="flex flex-wrap justify-center gap-4 mt-4">
+                <!-- Blog -->
+                <li
+                  class="p-2 border border-transparent rounded-full shadow-sm bg-a-black-700"
+                >
+                  <a
+                    href="https://redirect.akbal.dev/blog"
+                    class="group"
+                    target="_blank"
+                    rel="noopener"
+                    title="Blog"
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="w-6 h-6 text-white transition-colors group-hover:text-orchid-500 group-focus:text-orchid-500"
+                    >
+                      <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                      <path
+                        d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+
+                <!-- GitHub -->
+                <li
+                  class="p-2 border border-transparent rounded-full shadow-sm bg-a-black-700"
+                >
+                  <a
+                    href="https://redirect.akbal.dev/github"
+                    class="group"
+                    target="_blank"
+                    rel="noopener"
+                    title="GitHub"
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="w-6 h-6 text-white transition-colors group-hover:text-orchid-500 group-focus:text-orchid-500"
+                    >
+                      <path
+                        d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+
+                <!-- Twitter -->
+                <li
+                  class="p-2 border border-transparent rounded-full shadow-sm bg-a-black-700"
+                >
+                  <a
+                    href="https://redirect.akbal.dev/twitter"
+                    class="group"
+                    target="_blank"
+                    rel="noopener"
+                    title="Twitter"
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="w-6 h-6 text-white transition-colors group-hover:text-orchid-500 group-focus:text-orchid-500"
+                    >
+                      <path
+                        d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
+                      ></path>
+                    </svg>
+                  </a>
+                </li>
+
+                <!-- LinkedIn -->
+                <li
+                  class="p-2 border border-transparent rounded-full shadow-sm bg-a-black-700"
+                >
+                  <a
+                    href="https://redirect.akbal.dev/linkedin"
+                    class="group"
+                    target="_blank"
+                    rel="noopener"
+                    title="LinkedIn"
+                  >
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-width="1"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      class="w-6 h-6 text-white transition-colors group-hover:text-orchid-500 group-focus:text-orchid-500"
+                    >
+                      <path
+                        d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                      ></path>
+                      <rect x="2" y="9" width="4" height="12"></rect>
+                      <circle cx="4" cy="4" r="2"></circle>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Icons to my Github, Twitter and Blog -->
+          </div>
+        </div>
+      </section>
+
+      <Spacer />
+
+      <!-- Projects -->
+      <section id="projects" class="container__outer">
+        <div class="container__inner">
+          <h2 class="text-lg font-medium leading-6 text-gray-200">Projects</h2>
+          <p class="mt-1 text-sm text-gray-400">
+            Some of the work I have done.
+          </p>
+        </div>
+
+        <div class="mt-4">
+          <ul
+            class="flex justify-start gap-4 overflow-x-auto sm:justify-center snap snap-x snap-proximity"
+            dir="ltr"
+          >
+            <!-- Project -->
+            <li
+              class="min-w-full overflow-hidden border rounded-md sm:min-w-max snap-center bg-a-black-700 border-a-black-300 focus-within:ring-orchid-500 focus-within:border-orchid-500"
+            >
+              <div class="flex flex-col">
+                <div class="flex justify-center">
+                  <img
+                    class="w-full h-auto"
+                    src="https://via.placeholder.com/1000"
+                    alt="Project"
+                  />
+                </div>
+
+                <div class="flex justify-around flex-shrink-0 p-3">
+                  <a href="#" class="link">Visit</a>
+                  <a href="#" class="link">Read more</a>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <div class="mt-2 container__inner">
+          <p class="text-xs text-gray-400">You can scroll through the list.</p>
+        </div>
+      </section>
+
+      <Spacer />
+
+      <!-- Contact -->
+      <section id="contact" class="container__outer">
+        <div class="container__inner">
+          <div>
+            <h2 class="text-lg font-medium leading-6 text-gray-200">Contact</h2>
+            <p class="mt-1 text-sm text-gray-400">
+              Tell me about an interesting business offer, something that you
+              wanted to ask, or anything really.
+            </p>
+          </div>
+
+          <form
+            method="GET"
+            enctype="text/plain"
+            action="mailto:contact@akbal.dev"
+          >
+            <div class="grid grid-cols-1 mt-6 gap-y-6 gap-x-4 sm:grid-cols-6">
+              <!-- Subject -->
+              <div class="sm:col-span-2">
+                <label
+                  for="subject"
+                  class="block text-sm font-medium text-gray-300"
+                >
+                  Subject
+                </label>
+                <div class="mt-1">
+                  <input
+                    id="subject"
+                    required
+                    type="text"
+                    name="subject"
+                    class="block w-full text-white rounded-md shadow-sm bg-a-black-700 border-a-black-300 focus:ring-orchid-500 focus:border-orchid-500 sm:text-sm"
+                  />
+                </div>
+              </div>
+
+              <!-- Message -->
+              <div class="sm:col-span-6">
+                <label
+                  for="message"
+                  class="block text-sm font-medium text-gray-300"
+                >
+                  Message
+                </label>
+                <div class="mt-1">
+                  <textarea
+                    id="message"
+                    required
+                    name="body"
+                    rows="3"
+                    class="block w-full text-white rounded-md shadow-sm border-a-black-300 bg-a-black-700 focus:ring-orchid-500 focus:border-orchid-500 sm:text-sm"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+
+            <!-- Submit -->
+            <div class="flex mt-8 sm:justify-end">
+              <button
+                type="submit"
+                class="w-full px-4 py-2 text-sm font-medium text-white border border-transparent rounded-md shadow-sm bg-orchid-600 sm:w-auto hover:bg-orchid-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orchid-500"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
   </div>
 </template>
-
-<script>
-export default {}
-</script>
-
-<style>
-/* Sample `apply` at-rules with Tailwind CSS
-.container {
-@apply min-h-screen flex justify-center items-center text-center mx-auto;
-}
-*/
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
