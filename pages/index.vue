@@ -20,7 +20,7 @@
         class="p-4 bg-black -mt-14 bg-opacity-80"
         style="backdrop-filter: blur(2px)"
       >
-        <ul class="flex justify-around font-light">
+        <ul class="flex justify-around font-light container__inner">
           <li>
             <a class="link" href="#about_me">About me</a>
           </li>
