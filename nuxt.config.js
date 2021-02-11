@@ -68,10 +68,18 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    // https://sitemap.nuxtjs.org
+    '@nuxtjs/sitemap',
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
+
+  sitemap: {
+    hostname: 'https://akbal.dev',
+
+    gzip: true,
+  },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
