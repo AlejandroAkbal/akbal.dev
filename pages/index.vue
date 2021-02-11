@@ -5,14 +5,17 @@
       <div
         class="flex pb-10 overflow-hidden bg-gradient-to-br from-a-violet-500 to-a-purple-500"
       >
-        <img
-          id="logo"
-          height="2048"
-          width="2048"
+        <picture
           class="w-full h-auto m-auto transition-transform duration-500 ease-in-out delay-500 transform sm:max-w-screen-sm hover:scale-125"
-          src="https://raw.githubusercontent.com/AlejandroAkbal/brand/main/src/assets/Logo_transparent.png"
-          alt="Alejandro Akbal Logo"
-        />
+        >
+          <img
+            id="logo"
+            height="1024"
+            width="1024"
+            src="https://cdn.statically.io/img/raw.githubusercontent.com/h=1024,w=1024,q=90/AlejandroAkbal/brand/main/src/assets/Logo_transparent.png"
+            alt="Alejandro Akbal Logo"
+          />
+        </picture>
       </div>
 
       <!-- Navbar -->
