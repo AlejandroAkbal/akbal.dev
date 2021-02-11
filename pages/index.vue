@@ -137,33 +137,38 @@
 
         <div class="mt-4">
           <ul
-            class="flex justify-start gap-4 overflow-x-auto sm:justify-center snap snap-x snap-proximity"
+            class="flex justify-start gap-4 overflow-x-auto sm:no-snap snap snap-x snap-proximity"
             dir="ltr"
           >
             <!-- Project -->
-            <li
-              class="min-w-full overflow-hidden border rounded-md sm:min-w-max snap-center bg-a-black-700 border-a-black-300 focus-within:ring-orchid-500 focus-within:border-orchid-500"
-            >
-              <div class="flex flex-col">
-                <div class="flex justify-center">
-                  <img
-                    class="w-full h-auto"
-                    src="https://via.placeholder.com/1000"
-                    alt="Project"
-                  />
-                </div>
+            <template v-for="i in 10">
+              <li
+                :key="i"
+                class="min-w-full overflow-hidden border rounded-md sm:min-w-1/4 test snap-center bg-a-black-700 border-a-black-300 focus-within:ring-orchid-500 focus-within:border-orchid-500"
+              >
+                <div class="flex flex-col">
+                  <div class="flex justify-center">
+                    <img
+                      class="w-full h-auto"
+                      src="https://via.placeholder.com/1000"
+                      alt="Project"
+                    />
+                  </div>
 
-                <div class="flex justify-around flex-shrink-0 p-3">
-                  <a href="#" class="link">Visit</a>
-                  <a href="#" class="link">Read more</a>
+                  <div class="flex justify-around flex-shrink-0 p-3">
+                    <a href="#" class="link">Visit</a>
+                    <a href="#" class="link">Read more</a>
+                  </div>
                 </div>
-              </div>
-            </li>
+              </li>
+            </template>
           </ul>
         </div>
 
         <div class="mt-2 container__inner">
-          <p class="text-xs text-gray-400">You can scroll through the list.</p>
+          <p class="text-xs text-gray-400">
+            You can scroll through the list &rarr;
+          </p>
         </div>
       </section>
 
