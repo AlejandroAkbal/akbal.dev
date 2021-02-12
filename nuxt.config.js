@@ -1,3 +1,5 @@
+import TailwindConfig from './tailwind.config'
+
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
@@ -21,6 +23,12 @@ export default {
         name: 'description',
         content:
           'Alejandro Akbal is a software developer. He enjoys many things: web development, design, accessibility, SEO, servers, tutorials, and everything in between.',
+      },
+
+      {
+        hid: 'theme-color',
+        name: 'theme-color',
+        content: TailwindConfig.theme.extend.colors.brand,
       },
 
       {
