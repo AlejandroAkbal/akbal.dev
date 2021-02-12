@@ -153,6 +153,50 @@
               read-more-link-href="/projects/r34-app"
             >
             </ProjectCard>
+
+            <ProjectCard
+              title="Furry Kingdom"
+              description="Commercial project for a community based website."
+              img-src="https://via.placeholder.com/1000"
+              :img-width="1000"
+              :img-height="1000"
+              visit-link-href="https://furrykingdom.netlify.app"
+              read-more-link-href="/projects/furrykingdom-xyz"
+            >
+            </ProjectCard>
+
+            <ProjectCard
+              title="Torrent Mxchine"
+              description="Commercial project for a torrent based website."
+              img-src="https://via.placeholder.com/1000"
+              :img-width="1000"
+              :img-height="1000"
+              visit-link-href="https://alejandroakbal.github.io/Torrent.mx"
+              read-more-link-href="/projects/torrent-mx"
+            >
+            </ProjectCard>
+
+            <ProjectCard
+              title="AnimeBoxes Tag Backup Generator"
+              description="Simple web application for modifying backup data."
+              img-src="https://via.placeholder.com/1000"
+              :img-width="1000"
+              :img-height="1000"
+              visit-link-href="https://alejandroakbal.github.io/AnimeBoxes-Tag-Backup-Generator"
+              read-more-link-href="/projects/animeboxes-tag-backup-generator"
+            >
+            </ProjectCard>
+
+            <ProjectCard
+              title="My first website"
+              description="My very first website. Kept as a memory."
+              img-src="https://via.placeholder.com/1000"
+              :img-width="1000"
+              :img-height="1000"
+              visit-link-href="https://old.akbal.dev"
+              read-more-link-href="/projects/old-akbal-dev"
+            >
+            </ProjectCard>
           </ul>
         </div>
 
