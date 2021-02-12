@@ -25,6 +25,7 @@ export default {
           'Alejandro Akbal is a software developer. He enjoys many things: web development, design, accessibility, SEO, servers, tutorials, and everything in between.',
       },
 
+      // Colors
       {
         hid: 'color-scheme',
         name: 'color-scheme',
@@ -37,6 +38,7 @@ export default {
         content: TailwindConfig.theme.extend.colors.brand,
       },
 
+      // Open Graph
       {
         hid: 'og:title',
         name: 'og:title',
@@ -60,7 +62,14 @@ export default {
       },
     ],
 
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    link: [
+      {
+        rel: 'icon',
+        type: 'image/png',
+        href:
+          'https://cdn.statically.io/img/raw.githubusercontent.com/h=32,w=32,q=90/AlejandroAkbal/brand/main/src/assets/Logo_white.png',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
