@@ -105,7 +105,10 @@ export default {
   ],
 
   // Content module configuration: https://go.nuxtjs.dev/config-content
-  content: {},
+  content: {
+    liveEdit: false,
+    editor: false,
+  },
 
   sitemap: {
     hostname: 'https://akbal.dev',
