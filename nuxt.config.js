@@ -26,6 +26,12 @@ export default {
       },
 
       {
+        hid: 'color-scheme',
+        name: 'color-scheme',
+        content: 'dark',
+      },
+
+      {
         hid: 'theme-color',
         name: 'theme-color',
         content: TailwindConfig.theme.extend.colors.brand,
