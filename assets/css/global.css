@@ -50,3 +50,29 @@ html {
     transform: translateY(0);
   }
 }
+
+/* Nuxt-Content Overrides */
+
+.nuxt-content {
+  @apply prose text-gray-400;
+}
+
+.nuxt-content h1,
+.nuxt-content h2,
+.nuxt-content h3 {
+  @apply text-gray-200;
+}
+
+.nuxt-content h4,
+.nuxt-content h5,
+.nuxt-content h6 {
+  @apply text-gray-300;
+}
+
+.nuxt-content p {
+  @apply text-sm text-gray-400;
+}
+
+.nuxt-content a {
+  @apply link;
+}
