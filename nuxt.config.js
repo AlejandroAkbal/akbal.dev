@@ -8,7 +8,12 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'Alejandro Akbal - Software developer',
+    titleTemplate: (titleChunk) => {
+      // If undefined or blank then we don't need the hyphen
+      return titleChunk
+        ? `${titleChunk} | Alejandro Akbal`
+        : 'Alejandro Akbal - Software developer'
+    },
 
     htmlAttrs: {
       lang: 'en',
