@@ -155,6 +155,17 @@
             </ProjectCard>
 
             <ProjectCard
+              title="Rule 34 API"
+              description="The API for the Rule 34 App."
+              img-src="https://via.placeholder.com/1000"
+              :img-width="1000"
+              :img-height="1000"
+              visit-link-href="https://redirect.r34.app/github/api"
+              read-more-link-href="/projects/api-r34-app"
+            >
+            </ProjectCard>
+
+            <ProjectCard
               title="Furry Kingdom"
               description="Commercial project for a community based website."
               img-src="https://via.placeholder.com/1000"
@@ -184,6 +195,17 @@
               :img-height="1000"
               visit-link-href="https://alejandroakbal.github.io/AnimeBoxes-Tag-Backup-Generator"
               read-more-link-href="/projects/animeboxes-tag-backup-generator"
+            >
+            </ProjectCard>
+
+            <ProjectCard
+              title="Web portfolio"
+              description="The past version of this website."
+              img-src="https://via.placeholder.com/1000"
+              :img-width="1000"
+              :img-height="1000"
+              visit-link-href="https://old2.akbal.dev"
+              read-more-link-href="/projects/old2-akbal-dev"
             >
             </ProjectCard>
 
