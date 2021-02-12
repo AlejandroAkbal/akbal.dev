@@ -143,28 +143,16 @@
             class="flex justify-start gap-4 overflow-x-auto sm:no-snap snap snap-x snap-proximity"
             dir="ltr"
           >
-            <!-- Project -->
-            <template v-for="i in 10">
-              <li
-                :key="i"
-                class="min-w-full overflow-hidden border rounded-md sm:min-w-1/4 test snap-center bg-a-black-700 border-a-black-300 focus-within:ring-orchid-500 focus-within:border-orchid-500"
-              >
-                <div class="flex flex-col">
-                  <div class="flex justify-center">
-                    <img
-                      class="w-full h-auto"
-                      src="https://via.placeholder.com/1000"
-                      alt="Project"
-                    />
-                  </div>
-
-                  <div class="flex justify-around flex-shrink-0 p-3">
-                    <a href="#" class="link">Visit</a>
-                    <a href="#" class="link">Read more</a>
-                  </div>
-                </div>
-              </li>
-            </template>
+            <ProjectCard
+              title="Rule 34 App"
+              description="A NSFW Progressive Web Application with more than 2500 daily users."
+              img-src="https://via.placeholder.com/1000"
+              :img-width="1000"
+              :img-height="1000"
+              visit-link-href="https://r34.app"
+              read-more-link-href="/projects/r34-app"
+            >
+            </ProjectCard>
           </ul>
         </div>
 
