@@ -170,7 +170,7 @@
 
         <div class="mt-2 container__inner">
           <p class="text-xs text-gray-400">
-            You can scroll through the list &rarr;
+            You can scroll through the list. &rarr;
           </p>
         </div>
       </section>
@@ -208,7 +208,7 @@
                     required
                     type="text"
                     name="subject"
-                    class="block w-full text-white rounded-md shadow-sm bg-a-black-700 border-a-black-300 focus:ring-orchid-500 focus:border-orchid-500 sm:text-sm"
+                    class="block w-full text-white rounded-md shadow-sm border-a-black-300 bg-a-black-700 focus:ring-orchid-500 focus:border-orchid-500 sm:text-sm"
                   />
                 </div>
               </div>
