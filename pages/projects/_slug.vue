@@ -4,13 +4,15 @@
     style="padding-top: 0px; padding-bottom: 0px"
   >
     <div class="flex flex-col h-full py-3 container__inner">
-      <!-- Content -->
       <article class="flex-grow">
+        <!-- Title -->
+        <h1 class="text-lg text-gray-200">{{ page.title }}</h1>
+
         <!-- Image -->
-        <div
-          class="mx-auto overflow-hidden border border-transparent rounded-md"
-        >
-          <picture class="w-full h-auto sm:max-w-screen-sm">
+        <div class="flex justify-center my-2">
+          <picture
+            class="w-full h-auto overflow-hidden border rounded-md sm:max-w-screen-sm border-a-black-300"
+          >
             <img
               :src="page.imageUrl"
               :height="page.imageHeight"
@@ -20,11 +22,8 @@
           </picture>
         </div>
 
-        <div class="mt-2">
-          <!-- <h1 class="text-gray-200">{{ page.title }}</h1> -->
-
-          <nuxt-content :document="page" />
-        </div>
+        <!-- Content -->
+        <nuxt-content :document="page" />
       </article>
 
       <!-- Navigation -->
