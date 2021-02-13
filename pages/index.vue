@@ -156,7 +156,7 @@
 
             <ProjectCard
               title="Rule 34 API"
-              description="The API for the Rule 34 App."
+              description="The API that powers the Rule 34 App."
               img-src="/images/projects/api-r34-app.png"
               :img-width="1280"
               :img-height="1280"
@@ -262,7 +262,7 @@
                     required
                     type="text"
                     name="subject"
-                    class="block w-full text-white rounded-md shadow-sm border-a-black-300 bg-a-black-700 focus:ring-orchid-500 focus:border-orchid-500 sm:text-sm"
+                    class="block w-full text-white rounded-md shadow-sm border-a-black-300 bg-a-black-700 focus:outline-none focus:ring-orchid-500 focus:border-orchid-500 sm:text-sm"
                   />
                 </div>
               </div>
