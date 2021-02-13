@@ -52,7 +52,7 @@ export default {
 
     const [prev, next] = await $content(contentDir)
       .only(['title', 'slug'])
-      .sortBy('createdAt', 'asc')
+      .sortBy('index', 'desc')
       .surround(slug)
       .fetch()
 
