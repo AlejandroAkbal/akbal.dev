@@ -15,7 +15,7 @@
               :src="page.imageUrl"
               :height="page.imageHeight"
               :width="page.imageWidth"
-              alt="Project image"
+              :alt="`${page.title} cover image`"
             />
           </picture>
         </div>

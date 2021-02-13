@@ -8,9 +8,9 @@
         <picture class="w-full h-auto">
           <img
             :src="imgSrc"
-            alt="Project"
             :height="imgHeight"
             :width="imgWidth"
+            :alt="`${title} cover image`"
             decoding="async"
             loading="lazy"
           />
