@@ -5,5 +5,3 @@ imageUrl: '/images/projects/api-r34-app.png'
 imageHeight: 1280
 imageWidth: 1280
 ---
-
-## Rule 34 API

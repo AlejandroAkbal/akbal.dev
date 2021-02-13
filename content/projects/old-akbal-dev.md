@@ -7,9 +7,7 @@ imageHeight: 1280
 imageWidth: 1280
 ---
 
-## old.akbal.dev
-
-This is my very first website.
+My very first website.
 
 I decided to create it just for fun, to explore what the web could do.
 
