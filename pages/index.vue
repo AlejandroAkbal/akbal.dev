@@ -146,9 +146,9 @@
             <ProjectCard
               title="Rule 34 App"
               description="A NSFW Progressive Web Application with more than 2500 daily users."
-              img-src="https://via.placeholder.com/1000"
-              :img-width="1000"
-              :img-height="1000"
+              img-src="/images/projects/r34-app.png"
+              :img-width="1600"
+              :img-height="1600"
               visit-link-href="https://r34.app"
               read-more-link-href="/projects/r34-app"
             >
@@ -157,9 +157,9 @@
             <ProjectCard
               title="Rule 34 API"
               description="The API for the Rule 34 App."
-              img-src="https://via.placeholder.com/1000"
-              :img-width="1000"
-              :img-height="1000"
+              img-src="/images/projects/api-r34-app.png"
+              :img-width="1280"
+              :img-height="1280"
               visit-link-href="https://redirect.r34.app/github/api"
               read-more-link-href="/projects/api-r34-app"
             >
@@ -168,9 +168,9 @@
             <ProjectCard
               title="Furry Kingdom"
               description="Commercial project for a community based website."
-              img-src="https://via.placeholder.com/1000"
-              :img-width="1000"
-              :img-height="1000"
+              img-src="/images/projects/furrykingdom-xyz.png"
+              :img-width="1280"
+              :img-height="1280"
               visit-link-href="https://furrykingdom.netlify.app"
               read-more-link-href="/projects/furrykingdom-xyz"
             >
@@ -179,9 +179,9 @@
             <ProjectCard
               title="Torrent Mxchine"
               description="Commercial project for a torrent based website."
-              img-src="https://via.placeholder.com/1000"
-              :img-width="1000"
-              :img-height="1000"
+              img-src="/images/projects/torrent-mx.png"
+              :img-width="1280"
+              :img-height="1280"
               visit-link-href="https://alejandroakbal.github.io/Torrent.mx"
               read-more-link-href="/projects/torrent-mx"
             >
@@ -190,9 +190,9 @@
             <ProjectCard
               title="AnimeBoxes Tag Backup Generator"
               description="Simple web application for modifying backup data."
-              img-src="https://via.placeholder.com/1000"
-              :img-width="1000"
-              :img-height="1000"
+              img-src="/images/projects/animeboxes-tag-backup-generator.png"
+              :img-width="1280"
+              :img-height="1280"
               visit-link-href="https://alejandroakbal.github.io/AnimeBoxes-Tag-Backup-Generator"
               read-more-link-href="/projects/animeboxes-tag-backup-generator"
             >
@@ -201,9 +201,9 @@
             <ProjectCard
               title="Web portfolio"
               description="The past version of this website."
-              img-src="https://via.placeholder.com/1000"
-              :img-width="1000"
-              :img-height="1000"
+              img-src="/images/projects/akbal-dev.png"
+              :img-width="1280"
+              :img-height="1280"
               visit-link-href="https://old2.akbal.dev"
               read-more-link-href="/projects/old2-akbal-dev"
             >
@@ -212,9 +212,9 @@
             <ProjectCard
               title="My first website"
               description="My very first website. Kept as a memory."
-              img-src="https://via.placeholder.com/1000"
-              :img-width="1000"
-              :img-height="1000"
+              img-src="/images/projects/old-akbal-dev.png"
+              :img-width="1280"
+              :img-height="1280"
               visit-link-href="https://old.akbal.dev"
               read-more-link-href="/projects/old-akbal-dev"
             >
