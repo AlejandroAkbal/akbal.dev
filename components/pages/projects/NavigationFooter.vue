@@ -2,7 +2,7 @@
   <div class="flex justify-around">
     <template v-if="prev">
       <div class="flex flex-col items-center">
-        <h3 class="text-gray-200">Previous project</h3>
+        <h3 class="text-gray-200">&larr; Previous</h3>
 
         <NuxtLink :to="prev.path" class="link">
           {{ prev.title }}
@@ -12,7 +12,7 @@
 
     <template v-if="next">
       <div class="flex flex-col items-center">
-        <h3 class="text-gray-200">Next project</h3>
+        <h3 class="text-gray-200">Next &rarr;</h3>
 
         <NuxtLink :to="next.path" class="link">
           {{ next.title }}
