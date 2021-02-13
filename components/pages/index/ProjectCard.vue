@@ -11,6 +11,8 @@
             alt="Project"
             :height="imgHeight"
             :width="imgWidth"
+            decoding="async"
+            loading="lazy"
           />
         </picture>
       </div>
