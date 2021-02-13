@@ -5,6 +5,7 @@ imageUrl: '/images/projects/akbal-dev.png'
 # imageUrls: ['/images/projects/old-akbal-dev.png']
 imageHeight: 1280
 imageWidth: 1280
+index: 1
 ---
 
 The second version of my website.
