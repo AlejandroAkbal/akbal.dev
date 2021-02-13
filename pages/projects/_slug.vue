@@ -41,24 +41,22 @@ export default {
 
     const slug = params.slug
 
-    const page = await $content(`${contentDir}/${slug}`)
-      .fetch()
-      .catch((err) => {
-        error({ statusCode: 404, message: 'Page not found' })
+    try {
+      const page = await $content(`${contentDir}/${slug}`).fetch()
 
-        console.log(err)
-      })
+      const [prev, next] = await $content(contentDir)
+        .only(['title', 'slug'])
+        .sortBy('index', 'desc')
+        .surround(slug)
+        .fetch()
 
-    const [prev, next] = await $content(contentDir)
-      .only(['title', 'slug'])
-      .sortBy('index', 'desc')
-      .surround(slug)
-      .fetch()
-
-    return {
-      page,
-      prev,
-      next,
+      return {
+        page,
+        prev,
+        next,
+      }
+    } catch (error) {
+      error({ statusCode: 404, message: 'Page not found' })
     }
   },
 
