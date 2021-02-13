@@ -90,8 +90,6 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
-    // https://go.nuxtjs.dev/image
-    '@nuxt/image',
   ],
 
   tailwindcss: {
