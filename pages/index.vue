@@ -302,13 +302,3 @@
     </main>
   </div>
 </template>
-
-<script>
-export default {
-  head() {
-    return {
-      link: [{ hid: 'canonical', rel: 'canonical', href: 'https://akbal.dev' }],
-    }
-  },
-}
-</script>
