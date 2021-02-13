@@ -1,24 +1,33 @@
 <template>
-  <main class="container__outer" style="padding-top: 0px; padding-bottom: 0px">
-    <div class="my-4 container__inner">
-      <article>
+  <main
+    class="h-full container__outer"
+    style="padding-top: 0px; padding-bottom: 0px"
+  >
+    <div class="flex flex-col h-full py-3 container__inner">
+      <!-- Content -->
+      <article class="flex-grow">
         <!-- Image -->
         <div
           class="mx-auto overflow-hidden border border-transparent rounded-md"
         >
           <picture class="w-full h-auto sm:max-w-screen-sm">
-            <img :src="page.imageUrl" alt="Project image" />
+            <img
+              :src="page.imageUrl"
+              :height="page.imageHeight"
+              :width="page.imageWidth"
+              alt="Project image"
+            />
           </picture>
         </div>
 
-        <!-- Content -->
         <div class="mt-2">
-          <h1 class="text-gray-200">{{ page.title }}</h1>
+          <!-- <h1 class="text-gray-200">{{ page.title }}</h1> -->
 
           <nuxt-content :document="page" />
         </div>
       </article>
 
+      <!-- Navigation -->
       <NavigationFooter :prev="prev" :next="next" />
     </div>
   </main>
