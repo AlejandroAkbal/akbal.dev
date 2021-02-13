@@ -54,7 +54,7 @@ html {
 /* Nuxt-Content Overrides */
 
 .nuxt-content {
-  @apply prose text-gray-400;
+  @apply prose-sm text-gray-400;
 }
 
 .nuxt-content h1,
@@ -70,7 +70,7 @@ html {
 }
 
 .nuxt-content p {
-  @apply text-sm text-gray-400;
+  @apply text-gray-400;
 }
 
 .nuxt-content a {
