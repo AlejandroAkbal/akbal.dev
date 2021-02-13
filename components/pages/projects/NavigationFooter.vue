@@ -1,6 +1,6 @@
 <template>
   <div class="flex justify-around">
-    <template v-if="prev">
+    <template v-if="prev && prev.path">
       <div class="flex flex-col items-center">
         <h3 class="text-gray-200">&larr; Previous</h3>
 
@@ -10,7 +10,7 @@
       </div>
     </template>
 
-    <template v-if="next">
+    <template v-if="next && next.path">
       <div class="flex flex-col items-center">
         <h3 class="text-gray-200">Next &rarr;</h3>
 
