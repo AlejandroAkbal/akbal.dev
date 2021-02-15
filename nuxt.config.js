@@ -100,6 +100,8 @@ export default {
   modules: [
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
+    // https://sentry.nuxtjs.org/
+    '@nuxtjs/sentry',
     // https://sitemap.nuxtjs.org
     '@nuxtjs/sitemap',
   ],
@@ -108,6 +110,11 @@ export default {
   content: {
     liveEdit: false,
     editor: false,
+  },
+
+  sentry: {
+    dsn: process.env.SENTRY_DSN,
+    lazy: true,
   },
 
   sitemap: {
