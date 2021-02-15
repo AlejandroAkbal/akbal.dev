@@ -1,4 +1,8 @@
-# akbal-dev
+# akbal.dev
+
+My personal website. It acts as my online portfolio.
+
+[Check it out](https://akbal.dev).
 
 ## Build Setup
 
