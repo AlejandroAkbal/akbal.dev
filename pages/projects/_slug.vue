@@ -43,7 +43,7 @@ export default {
     const slug = params.slug
 
     try {
-      const page = await $content(`${contentDir}/${slug}`).fetch()
+      const project = await $content(contentDir, slug).fetch()
 
       const [prev, next] = await $content(contentDir)
         .only(['title', 'slug'])
