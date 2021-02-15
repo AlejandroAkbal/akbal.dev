@@ -5,8 +5,14 @@
       <div class="flex flex-col items-center">
         <h3 class="text-gray-200">&larr; Previous</h3>
 
-        <NuxtLink :to="prev.path" class="link">
-          {{ prev.title }}
+        <NuxtLink
+          :to="{
+            name: `${contentDir}-slug`,
+            params: { slug: prevProject.slug },
+          }"
+          class="link"
+        >
+          {{ prevProject.title }}
         </NuxtLink>
       </div>
     </template>
@@ -15,8 +21,14 @@
       <div class="flex flex-col items-center">
         <h3 class="text-gray-200">Next &rarr;</h3>
 
-        <NuxtLink :to="next.path" class="link">
-          {{ next.title }}
+        <NuxtLink
+          :to="{
+            name: `${contentDir}-slug`,
+            params: { slug: nextProject.slug },
+          }"
+          class="link"
+        >
+          {{ nextProject.title }}
         </NuxtLink>
       </div>
     </template>
@@ -26,8 +38,20 @@
 <script>
 export default {
   props: {
-    prev: { default: null, type: Object },
-    next: { default: null, type: Object },
+    prevProject: {
+      type: Object,
+      default: () => null,
+    },
+
+    nextProject: {
+      type: Object,
+      default: () => null,
+    },
+
+    contentDir: {
+      type: String,
+      default: () => null,
+    },
   },
 }
 </script>

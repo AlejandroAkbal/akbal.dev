@@ -28,6 +28,7 @@
 
       <!-- Navigation -->
       <PrevNext
+        :content-dir="contentDir"
       />
     </div>
   </main>
@@ -55,6 +56,7 @@ export default {
         page,
         prev,
         next,
+        contentDir,
       }
     } catch (error) {
       error({ statusCode: 404, message: 'Page not found' })
