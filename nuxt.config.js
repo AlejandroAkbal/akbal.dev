@@ -131,4 +131,6 @@ export default {
   build: {
     extractCSS: true,
   },
+
+  telemetry: false,
 }
