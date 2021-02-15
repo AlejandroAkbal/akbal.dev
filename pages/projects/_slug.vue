@@ -27,7 +27,8 @@
       </article>
 
       <!-- Navigation -->
-      <NavigationFooter :prev="prev" :next="next" />
+      <PrevNext
+      />
     </div>
   </main>
 </template>

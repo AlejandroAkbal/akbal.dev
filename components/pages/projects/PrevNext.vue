@@ -1,3 +1,4 @@
+@@ -1,32 +0,0 @@
 <template>
   <div class="flex justify-around">
     <template v-if="prev && prev.path">
