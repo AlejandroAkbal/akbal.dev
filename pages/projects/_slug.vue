@@ -6,7 +6,7 @@
     <div class="flex flex-col h-full py-3 container__inner">
       <article class="flex-grow">
         <!-- Title -->
-        <h1 class="text-lg text-gray-200">{{ page.title }}</h1>
+        <h1 class="text-lg text-gray-200">{{ project.title }}</h1>
 
         <!-- Image -->
         <div class="flex justify-center my-2">
@@ -14,20 +14,22 @@
             class="w-full h-auto overflow-hidden border rounded-md sm:max-w-screen-sm border-a-black-300"
           >
             <img
-              :src="page.imageUrl"
-              :height="page.imageHeight"
-              :width="page.imageWidth"
-              :alt="`${page.title} cover image`"
+              :src="project.imageUrl"
+              :height="project.imageHeight"
+              :width="project.imageWidth"
+              :alt="`${project.title} cover image`"
             />
           </picture>
         </div>
 
         <!-- Content -->
-        <nuxt-content :document="page" />
+        <nuxt-content :document="project" />
       </article>
 
       <!-- Navigation -->
       <PrevNext
+        :prev-project="prevProject"
+        :next-project="nextProject"
         :content-dir="contentDir"
       />
     </div>
@@ -41,45 +43,45 @@ export default {
   async asyncData({ $content, params, error }) {
     const contentDir = 'projects'
 
-    const slug = params.slug
+    const { slug } = params
 
     try {
       const project = await $content(contentDir, slug).fetch()
 
-      const [prev, next] = await $content(contentDir)
+      const [prevProject, nextProject] = await $content(contentDir)
         .only(['title', 'slug'])
         .sortBy('index', 'desc')
         .surround(slug)
         .fetch()
 
       return {
-        page,
-        prev,
-        next,
+        project,
+        prevProject,
+        nextProject,
         contentDir,
       }
-    } catch (error) {
-      error({ statusCode: 404, message: 'Page not found' })
+    } catch (err) {
+      error({ statusCode: 404, message: 'Project not found' })
     }
   },
 
   head() {
     return {
-      title: this.page.title,
+      title: this.project.title,
 
       meta: [
         {
           hid: 'description',
           name: 'description',
-          content: this.page.description,
+          content: this.project.description,
         },
 
         // Open Graph
-        { hid: 'og:title', property: 'og:title', content: this.page.title },
+        { hid: 'og:title', property: 'og:title', content: this.project.title },
         {
           hid: 'og:description',
           property: 'og:description',
-          content: this.page.description,
+          content: this.project.description,
         },
       ],
     }
