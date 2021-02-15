@@ -27,6 +27,16 @@
 
 <script>
 export default {
-  props: { title: String, href: String },
+  props: {
+    title: {
+      type: String,
+      default: () => null,
+    },
+
+    href: {
+      type: String,
+      default: () => null,
+    },
+  },
 }
 </script>
