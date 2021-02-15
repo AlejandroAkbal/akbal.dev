@@ -9,7 +9,7 @@
         <h1 class="text-lg text-gray-200">{{ project.title }}</h1>
 
         <!-- Image -->
-        <div class="flex justify-center my-2">
+        <div class="flex justify-center my-3">
           <picture
             class="w-full h-auto overflow-hidden border rounded-md sm:max-w-screen-sm border-a-black-300"
           >
