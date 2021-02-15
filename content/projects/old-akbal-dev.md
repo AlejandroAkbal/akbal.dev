@@ -1,6 +1,6 @@
 ---
-title: old.akbal.dev
-description: 'Project information'
+title: old.akbal.dev - Project
+description: 'My very first website.'
 imageUrl: '/images/projects/old-akbal-dev.png'
 # imageUrls: ['/images/projects/old-akbal-dev.png']
 imageHeight: 1280
@@ -12,16 +12,20 @@ My very first website.
 
 I decided to create it just for fun, to explore what the web could do.
 
-From this project alone I learned a lot:
+I learned a lot from this project alone:
 
-I had to build and secure a Google Cloud Engine Debian 9 instance. Which was very daunting at first, but I really enjoyed it.
+I had to build and secure a Google Cloud Engine instance, which was running on Debian 9. This task was very daunting at first, but I really enjoyed playing with all the bits and bobs of GNU/Linux.
 
-I also learned PHP and Databases. I used them to store the score for a [mini-game](https://old.akbal.dev/webpages/clicker.php) and theme colors for a [theme repository](https://old.akbal.dev/webpages/temas.php).
+I also learned PHP and Databases. I used them to store the score for a [mini-game](https://old.akbal.dev/webpages/clicker.php) and colors for a [theme repository](https://old.akbal.dev/webpages/temas.php).
 
-PS:
-Try clicking the `Akbal's` header on the landing page. ;')
+## Links
 
-## Technologies
+Click the `Akbal's` header on the landing page for a surprise. ;')
+
+- [Live website](https://old.akbal.dev).
+- [Source code](https://github.com/AlejandroAkbal/old.akbal.dev).
+
+## Notable Technologies
 
 - HTML
 - CSS
