@@ -119,8 +119,6 @@ export default {
 
   sitemap: {
     hostname: 'https://akbal.dev',
-
-    gzip: true,
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
