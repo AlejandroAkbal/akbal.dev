@@ -115,6 +115,12 @@ export default {
   sentry: {
     dsn: process.env.SENTRY_DSN,
     lazy: true,
+
+    disableServerSide: true,
+
+    // config: {
+    //   ignoreErrors: [],
+    // },
   },
 
   sitemap: {
