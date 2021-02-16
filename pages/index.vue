@@ -246,6 +246,7 @@
             method="GET"
             enctype="text/plain"
             action="mailto:contact@akbal.dev"
+            target="_top"
           >
             <div class="grid grid-cols-1 mt-6 gap-y-6 gap-x-4 sm:grid-cols-6">
               <!-- Subject -->
