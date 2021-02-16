@@ -11,7 +11,6 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.11.1",
-    "@nuxtjs/sentry": "^5.0.1",
     "core-js": "^3.8.3",
     "nuxt": "^2.14.12",
     "vue-matomo": "^3.14.0-0"
