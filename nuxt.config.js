@@ -6,6 +6,10 @@ export default {
 
   ssr: true,
 
+  publicRuntimeConfig: {
+    NODE_ENV: process.env.NODE_ENV,
+  },
+
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     titleTemplate: (titleChunk) => {
