@@ -236,9 +236,10 @@
         <div class="container__inner">
           <div>
             <h2 class="text-lg font-medium leading-6 text-gray-200">Contact</h2>
+
             <p class="mt-1 text-sm text-gray-400">
               Tell me about an interesting business offer, something that you
-              wanted to ask, or anything really.
+              wanted to ask, or anything else, but keep it succinct.
             </p>
           </div>
 
@@ -246,7 +247,6 @@
             method="GET"
             enctype="text/plain"
             action="mailto:contact@akbal.dev"
-            target="_top"
           >
             <div class="grid grid-cols-1 mt-6 gap-y-6 gap-x-4 sm:grid-cols-6">
               <!-- Subject -->
@@ -298,6 +298,13 @@
               </button>
             </div>
           </form>
+
+          <p class="mt-8 text-xs text-right text-gray-400">
+            Or send an email to
+            <a class="link" href="mailto:contact@akbal.dev" target="_top">
+              contact@akbal.dev</a
+            >.
+          </p>
         </div>
       </section>
     </main>
