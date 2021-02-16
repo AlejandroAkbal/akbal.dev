@@ -58,7 +58,7 @@ export default {
         hid: 'og:image',
         name: 'og:image',
         content:
-          'https://og-image.akbal.dev/**Alejandro Akbal** Software developer.png?theme=light&md=1&fontSize=125px&widths=350&heights=350',
+          'https://og-image.akbal.dev/**Alejandro%20Akbal**%20Software%20developer.png?theme=light&md=1&fontSize=125px&widths=350&heights=350',
       },
       {
         hid: 'og:url',
