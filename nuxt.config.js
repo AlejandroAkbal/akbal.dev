@@ -8,6 +8,9 @@ export default {
 
   publicRuntimeConfig: {
     NODE_ENV: process.env.NODE_ENV,
+
+    MATOMO_HOST: process.env.MATOMO_HOST,
+    MATOMO_SITE_ID: process.env.MATOMO_SITE_ID,
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -85,7 +88,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: [{ src: '~/plugins/vue-matomo.js', mode: 'client' }],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
@@ -122,9 +125,9 @@ export default {
 
     disableServerSide: true,
 
-    // config: {
-    //   ignoreErrors: [],
-    // },
+    config: {
+      ignoreErrors: ['vue-matomo'],
+    },
   },
 
   sitemap: {
