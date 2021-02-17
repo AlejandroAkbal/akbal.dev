@@ -1,4 +1,5 @@
 import TailwindConfig from './tailwind.config'
+import getRoutes from './components/pages/projects/utils/getRoutes.js'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -119,6 +120,12 @@ export default {
 
   sitemap: {
     hostname: 'https://akbal.dev',
+
+    gzip: true,
+
+    routes() {
+      return getRoutes()
+    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
