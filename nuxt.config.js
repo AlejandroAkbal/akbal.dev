@@ -121,14 +121,18 @@ export default {
   sitemap: {
     hostname: 'https://akbal.dev',
 
-    routes() {
-      return createSitemapRoutes()
-    },
-
     defaults: {
       changefreq: 'daily',
       priority: 1,
       lastmod: new Date(),
+    },
+
+    routes: async () => {
+      const routeOverrides = [{ url: '/', priority: 1.0 }]
+
+      const nuxtContentRoutes = await createSitemapRoutes()
+
+      return [...routeOverrides, ...nuxtContentRoutes]
     },
   },
 
