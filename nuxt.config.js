@@ -121,11 +121,14 @@ export default {
   sitemap: {
     hostname: 'https://akbal.dev',
 
-    gzip: true,
-
     routes() {
       return createSitemapRoutes()
     },
+
+    defaults: {
+      changefreq: 'daily',
+      priority: 1,
+      lastmod: new Date(),
     },
   },
 
