@@ -11,7 +11,6 @@ export async function createSitemapRoutes() {
     if (file.path === '/index') {
       routes.push({
         url: '/',
-        changefreq: 'daily',
         priority: 1.0,
         lastmod: new Date(file.updatedAt),
       })
@@ -21,7 +20,6 @@ export async function createSitemapRoutes() {
 
     routes.push({
       url: file.path,
-      changefreq: 'daily',
       priority: 0.8,
       lastmod: new Date(file.updatedAt),
     })

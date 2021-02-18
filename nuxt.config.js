@@ -123,7 +123,7 @@ export default {
 
     defaults: {
       changefreq: 'daily',
-      priority: 1,
+      priority: 0.8,
       lastmod: new Date(),
     },
 
