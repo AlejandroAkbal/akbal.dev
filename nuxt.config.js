@@ -1,5 +1,5 @@
 import TailwindConfig from './tailwind.config'
-import getRoutes from './components/pages/projects/utils/getRoutes.js'
+import { createSitemapRoutes } from './components/pages/projects/utils/createSitemapRoutes.js'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -124,7 +124,8 @@ export default {
     gzip: true,
 
     routes() {
-      return getRoutes()
+      return createSitemapRoutes()
+    },
     },
   },
 
