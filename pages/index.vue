@@ -134,7 +134,7 @@
         <div class="container__inner">
           <h2 class="text-lg font-medium leading-6 text-gray-200">Projects</h2>
           <p class="mt-1 text-sm text-gray-400">
-            Some of the work I have done.
+            Some of the work that I am proud of.
           </p>
         </div>
 
