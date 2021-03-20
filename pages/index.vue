@@ -51,7 +51,8 @@
             </h2>
             <div class="mt-1">
               <p class="text-gray-300">
-                A software developer based on Spain, <i>UTC+1</i>.
+                A software developer based on Spain.
+                <i class="text-sm">UTC+1</i>.
 
                 <br />
 
@@ -61,20 +62,20 @@
                   href="https://redirect.akbal.dev/blog"
                   target="_blank"
                   rel="noopener"
-                >
-                  write articles</a
+                  >write articles</a
                 >, tinker with
                 <a
                   class="link"
                   href="https://redirect.akbal.dev/github"
                   target="_blank"
                   rel="noopener"
+                  >open-source</a
                 >
-                  open-source projects</a
-                >, deploy services, and manage servers.
+                and manage servers.
 
                 <br />
-                But overall, enjoy the surprises that life brings me.
+
+                But overall, enjoy the surprises that life brings to me.
               </p>
             </div>
 
@@ -239,7 +240,7 @@
 
             <p class="mt-1 text-sm text-gray-400">
               Tell me about an interesting business offer, something that you
-              wanted to ask, or anything else, but keep it succinct.
+              wanted to ask, or anything else. But keep it succinct.
             </p>
           </div>
 
