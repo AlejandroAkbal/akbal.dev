@@ -7,33 +7,34 @@
 * Defaults
 *
 **/
+@layer base {
+  html {
+    animation: slide_in_top 1s ease-in-out both;
 
-html {
-  animation: slide_in_top 1s ease-in-out both;
+    scroll-behavior: smooth;
 
-  scroll-behavior: smooth;
-
-  overscroll-behavior: none;
+    overscroll-behavior: none;
+  }
 }
-
 /**
 *
 * Classes
 *
 **/
 
-.container__outer {
-  @apply px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8;
-}
+@layer components {
+  .container__outer {
+    @apply px-4 py-12 mx-auto max-w-7xl sm:px-6 lg:px-8;
+  }
 
-.container__inner {
-  @apply max-w-3xl mx-auto;
-}
+  .container__inner {
+    @apply max-w-3xl mx-auto;
+  }
 
-.link {
-  @apply text-orchid-400 hover:text-orchid-500 focus:outline-none focus:ring focus:ring-orchid-400;
+  .link {
+    @apply text-orchid-400 hover:text-orchid-500 focus:outline-none focus:ring focus:ring-orchid-400;
+  }
 }
-
 /**
 *
 * Animations
