@@ -22,7 +22,7 @@ Moreover, I have a beautiful community behind that supports me to keep developin
 
 ## Links
 
-- [Live website](https://r34.app).
+- [Live website](https://r34.app/?domain=safebooru.org).
 - [Source code](https://github.com/Rule-34/App).
 
 ## Notable Technologies

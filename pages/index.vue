@@ -150,7 +150,7 @@
               img-src="/images/projects/r34-app.png"
               :img-width="1600"
               :img-height="1600"
-              visit-link-href="https://r34.app"
+              visit-link-href="https://r34.app/?domain=safebooru.org"
               read-more-link-href="/projects/r34-app"
             >
             </ProjectCard>
