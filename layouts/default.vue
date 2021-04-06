@@ -2,10 +2,6 @@
   <div>
     <!-- Content -->
     <Nuxt />
-
-    <Spacer />
-
-    <Footer />
   </div>
 </template>
 
