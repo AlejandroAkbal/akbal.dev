@@ -46,40 +46,62 @@
       <section id="about_me" class="container__outer">
         <div class="container__inner">
           <div>
-            <h2 class="text-lg font-medium leading-6 text-gray-200">
+            <h1 class="text-xl font-medium leading-6 text-gray-200">
               I'm Alejandro Akbal
+            </h1>
+
+            <h2 class="mb-1 text-lg text-gray-300">
+              A software engineer based on Spain.
+              <i class="text-sm">UTC+1</i>
             </h2>
-            <div class="mt-1">
-              <p class="text-gray-300">
-                A software engineer based on Spain.
-                <i class="text-sm">UTC+1</i>.
 
-                <br />
+            <p class="text-gray-300">I have many passions…</p>
 
-                I have many passions. I like to
+            <ul class="my-1 space-x-2 text-gray-300">
+              <li class="mx-2">
+                I like to write
                 <a
                   class="link"
                   href="https://redirect.akbal.dev/blog"
                   target="_blank"
                   rel="noopener"
-                  >write articles</a
-                >, tinker with
+                >
+                  articles
+                </a>
+              </li>
+
+              <li>
+                Tinker with
                 <a
                   class="link"
                   href="https://redirect.akbal.dev/github"
                   target="_blank"
                   rel="noopener"
-                  >open-source</a
                 >
-                and manage servers.
+                  open-source
+                </a>
+              </li>
 
-                <br />
+              <li>
+                Create
+                <a
+                  class="link"
+                  href="https://github.com/AlejandroAkbal/Designs"
+                >
+                  designs and mock-ups
+                </a>
+              </li>
 
-                But overall, enjoy the surprises that life brings to me.
-              </p>
-            </div>
+              <li>Delve into accessibility concerns</li>
 
-            <div class="mt-6">
+              <li>Manage servers</li>
+            </ul>
+
+            <p class="text-gray-300">
+              And much more that I do in my every day.
+            </p>
+
+            <div class="mt-4">
               <p class="text-center text-gray-200">Find me on</p>
 
               <ul class="flex flex-wrap justify-center gap-4 mt-4">
