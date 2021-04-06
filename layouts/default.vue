@@ -12,7 +12,7 @@
 <script>
 export default {
   head() {
-    return { bodyAttrs: { class: ['subpixel-antialiased ', 'bg-a-black-500'] } }
+    return { bodyAttrs: { class: ['subpixel-antialiased', 'bg-a-black-500'] } }
   },
 }
 </script>
