@@ -20,7 +20,7 @@ export default {
       // If undefined or blank then we don't need the hyphen
       return titleChunk
         ? `${titleChunk} | Alejandro Akbal`
-        : 'Alejandro Akbal - Software developer'
+        : 'Alejandro Akbal - Software engineer'
     },
 
     htmlAttrs: {
@@ -35,7 +35,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Alejandro Akbal is a software developer. He enjoys many things: web development, design, accessibility, SEO, servers, tutorials, and everything in between.',
+          'Alejandro Akbal is a software engineer. He enjoys many things: web development, design, accessibility, SEO, servers, tutorials, and everything in between.',
       },
 
       // Colors

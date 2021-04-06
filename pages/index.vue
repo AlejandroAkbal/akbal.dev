@@ -51,7 +51,7 @@
             </h2>
             <div class="mt-1">
               <p class="text-gray-300">
-                A software developer based on Spain.
+                A software engineer based on Spain.
                 <i class="text-sm">UTC+1</i>.
 
                 <br />
