@@ -13,7 +13,7 @@
         viewBox="0 0 24 24"
         fill="none"
         stroke="currentColor"
-        stroke-width="1"
+        stroke-width="1.5"
         stroke-linecap="round"
         stroke-linejoin="round"
         class="w-6 h-6 text-white transition-colors group-hover:text-orchid-500 group-focus:text-orchid-500"
