@@ -240,13 +240,16 @@
 
             <p class="mt-1 text-sm text-gray-400">
               Tell me about an interesting business offer, something that you
-              wanted to ask, or anything else. But keep it
-              <a
-                class="link"
-                href="https://dictionary.cambridge.org/dictionary/english/succinct"
-              >
-                succinct</a
-              >.
+              wanted to ask, or anything else.
+              <em>
+                But keep it
+                <a
+                  class="link"
+                  href="https://dictionary.cambridge.org/dictionary/english/succinct"
+                >
+                  succinct</a
+                >.
+              </em>
             </p>
           </div>
 
