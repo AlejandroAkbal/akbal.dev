@@ -1,6 +1,6 @@
 <template>
   <li
-    class="p-2 border-2 border-transparent rounded-full shadow-sm bg-a-black-700 focus-within:border-orchid-500"
+    class="p-2 border-2 rounded-full shadow-sm border-a-black-300 bg-a-black-700 focus-within:border-orchid-500"
   >
     <a
       :href="href"
@@ -19,7 +19,7 @@
         class="w-6 h-6 text-white transition-colors group-hover:text-orchid-500"
         :aria-label="`${title} icon`"
       >
-        <slot></slot>
+        <slot />
       </svg>
     </a>
   </li>
