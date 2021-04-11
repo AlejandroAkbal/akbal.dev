@@ -23,17 +23,21 @@
         class="p-4 bg-black -mt-14 bg-opacity-80"
         style="backdrop-filter: blur(2px)"
       >
-        <ul class="flex justify-around font-light container__inner">
+        <ul class="flex justify-around container__inner">
           <li>
-            <a class="link focus:focus-util" href="#about_me">About me</a>
+            <a class="text-lg link focus:focus-util" href="#about_me"
+              >About me</a
+            >
           </li>
 
           <li>
-            <a class="link focus:focus-util" href="#projects">Projects</a>
+            <a class="text-lg link focus:focus-util" href="#projects"
+              >Projects</a
+            >
           </li>
 
           <li>
-            <a class="link focus:focus-util" href="#contact">Contact</a>
+            <a class="text-lg link focus:focus-util" href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -288,7 +292,7 @@
                     required
                     type="text"
                     name="subject"
-                    class="block w-full text-white rounded-md shadow-sm border-darkGray-300 bg-darkGray-700 focus:outline-none focus:ring-orchid-500 focus:border-orchid-500 sm:text-sm"
+                    class="block w-full text-white rounded-md shadow-sm border-darkGray-300 bg-darkGray-700 focus:focus-util sm:text-sm"
                   />
                 </div>
               </div>
@@ -307,7 +311,7 @@
                     required
                     name="body"
                     rows="3"
-                    class="block w-full text-white rounded-md shadow-sm border-darkGray-300 bg-darkGray-700 focus:ring-orchid-500 focus:border-orchid-500 sm:text-sm"
+                    class="block w-full text-white rounded-md shadow-sm border-darkGray-300 bg-darkGray-700 focus:focus-util sm:text-sm"
                   />
                 </div>
               </div>
@@ -317,7 +321,7 @@
             <div class="flex mt-8 sm:justify-end">
               <button
                 type="submit"
-                class="w-full px-4 py-2 text-sm font-medium text-white border border-transparent rounded-md shadow-sm bg-orchid-600 sm:w-auto hover:bg-orchid-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-orchid-500"
+                class="w-full px-4 py-2 text-sm font-medium text-white border border-transparent rounded-md shadow-sm bg-orchid-600 sm:w-auto hover:bg-orchid-500 focus:focus-util"
               >
                 Submit
               </button>
