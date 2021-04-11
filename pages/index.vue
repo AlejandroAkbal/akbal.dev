@@ -62,7 +62,7 @@
               <li class="mx-2">
                 I like to write
                 <a
-                  class="link focus:focus-util"
+                  class="link"
                   href="https://redirect.akbal.dev/blog"
                   target="_blank"
                   rel="noopener"
@@ -74,7 +74,7 @@
               <li>
                 Tinker with
                 <a
-                  class="link focus:focus-util"
+                  class="link"
                   href="https://redirect.akbal.dev/github"
                   target="_blank"
                   rel="noopener"
@@ -86,7 +86,7 @@
               <li>
                 Create
                 <a
-                  class="link focus:focus-util"
+                  class="link"
                   href="https://github.com/AlejandroAkbal/Designs"
                 >
                   designs and mock-ups
@@ -263,7 +263,7 @@
               <em>
                 But keep it
                 <a
-                  class="link focus:focus-util"
+                  class="link"
                   href="https://dictionary.cambridge.org/dictionary/english/succinct"
                 >
                   succinct</a
@@ -332,11 +332,7 @@
 
           <p class="mt-8 text-xs text-right text-gray-300">
             Or send an email to
-            <a
-              class="link focus:focus-util"
-              href="mailto:contact@akbal.dev"
-              target="_top"
-            >
+            <a class="link" href="mailto:contact@akbal.dev" target="_top">
               contact@akbal.dev</a
             >.
           </p>

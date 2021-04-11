@@ -30,19 +30,12 @@
       <!-- Call to action -->
       <div class="flex justify-around flex-shrink-0 p-3">
         <template v-if="visitLinkHref">
-          <a
-            :href="visitLinkHref"
-            target="_blank"
-            rel="noopener"
-            class="link focus:focus-util"
-          >
+          <a :href="visitLinkHref" target="_blank" rel="noopener" class="link">
             Visit
           </a>
         </template>
 
-        <NuxtLink :to="readMoreLinkHref" class="link focus:focus-util">
-          Read more
-        </NuxtLink>
+        <NuxtLink :to="readMoreLinkHref" class="link"> Read more </NuxtLink>
       </div>
     </div>
   </li>

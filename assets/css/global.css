@@ -54,6 +54,10 @@
   .link:hover {
     @apply text-primary-400;
   }
+
+  .link:focus {
+    @apply focus-util;
+  }
 }
 
 /**
