@@ -104,7 +104,11 @@ export default {
   ],
 
   tailwindcss: {
+    viewer: true,
+
     cssPath: '~/assets/css/global.css',
+
+    jit: true,
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules

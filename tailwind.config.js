@@ -123,7 +123,9 @@ const generatedColors = {
 }
 
 module.exports = {
-  darkMode: false, // or 'media' or 'class'
+  mode: 'jit',
+
+  darkMode: false,
 
   theme: {
     extend: {
