@@ -131,9 +131,9 @@ module.exports = {
         // primary: generatedColors.orchid,
 
         darkGray: {
-          300: 'hsl(200, 6%, 14%)',
-          500: 'hsl(200, 6%, 10%)', // OG
-          700: 'hsl(200, 6%, 6%)',
+          300: 'hsl(200, 6%, 14%)', // Border
+          500: 'hsl(200, 6%, 10%)', // Elevated BG // Original color
+          700: 'hsl(200, 6%, 6%)', // Background
         },
 
         'a-violet-500': 'hsl(320, 42%, 47%)',

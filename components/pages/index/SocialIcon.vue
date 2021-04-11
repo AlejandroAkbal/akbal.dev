@@ -1,6 +1,6 @@
 <template>
   <li
-    class="p-2 border-2 rounded-full shadow-sm border-darkGray-300 bg-darkGray-700 focus-within:border-orchid-500"
+    class="p-2 border-2 rounded-full shadow-sm border-darkGray-300 bg-darkGray-500 focus-within:border-orchid-500"
   >
     <a
       :href="href"

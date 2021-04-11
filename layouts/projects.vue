@@ -26,7 +26,7 @@
 export default {
   head() {
     return {
-      bodyAttrs: { class: ['subpixel-antialiased ', 'bg-darkGray-500'] },
+      bodyAttrs: { class: ['subpixel-antialiased ', 'bg-darkGray-700'] },
     }
   },
 }

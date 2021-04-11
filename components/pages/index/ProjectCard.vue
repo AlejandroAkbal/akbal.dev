@@ -1,6 +1,6 @@
 <template>
   <li
-    class="h-full min-w-full overflow-hidden border rounded-md sm:min-w-1/4 test snap-center bg-darkGray-700 border-darkGray-300 focus-within:ring-orchid-500 focus-within:border-orchid-500"
+    class="h-full min-w-full overflow-hidden border rounded-md sm:min-w-1/4 test snap-center bg-darkGray-500 border-darkGray-300 focus-within:ring-orchid-500 focus-within:border-orchid-500"
   >
     <div class="flex flex-col">
       <!-- Image -->
@@ -19,7 +19,9 @@
 
       <!-- Description -->
       <div class="flex-auto px-4 pt-3">
-        <h3 class="text-gray-200">{{ title }}</h3>
+        <h3 class="text-gray-200">
+          {{ title }}
+        </h3>
         <p class="text-sm text-gray-400">
           {{ description }}
         </p>
@@ -33,7 +35,7 @@
           </a>
         </template>
 
-        <NuxtLink :to="readMoreLinkHref" class="link">Read more</NuxtLink>
+        <NuxtLink :to="readMoreLinkHref" class="link"> Read more </NuxtLink>
       </div>
     </div>
   </li>
