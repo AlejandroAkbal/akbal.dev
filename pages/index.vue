@@ -47,11 +47,11 @@
       <section id="about_me" class="container__outer">
         <div class="container__inner">
           <div>
-            <h1 class="text-xl font-medium leading-6 text-gray-200">
+            <h1 class="text-xl font-semibold leading-snug text-gray-200">
               I'm Alejandro Akbal
             </h1>
 
-            <h2 class="mb-1 text-lg text-gray-200">
+            <h2 class="text-lg font-medium leading-loose text-gray-200">
               A software engineer based on Spain.
               <i class="text-sm">UTC+1</i>
             </h2>
@@ -156,10 +156,11 @@
       <!-- Projects -->
       <section id="projects" class="container__outer">
         <div class="container__inner">
-          <h2 class="text-lg font-medium leading-6 text-gray-200">Projects</h2>
-          <p class="mt-1 text-sm text-gray-300">
-            Some of the work that I am proud of.
-          </p>
+          <h2 class="text-lg font-medium leading-normal text-gray-200">
+            Projects
+          </h2>
+
+          <p class="mt-1 text-gray-300">Some of the work that I am proud of.</p>
         </div>
 
         <div class="mt-4">
@@ -252,9 +253,11 @@
       <section id="contact" class="container__outer">
         <div class="container__inner">
           <div>
-            <h2 class="text-lg font-medium leading-6 text-gray-200">Contact</h2>
+            <h2 class="text-lg font-medium leading-normal text-gray-200">
+              Contact
+            </h2>
 
-            <p class="mt-1 text-sm text-gray-300">
+            <p class="text-gray-300">
               Tell me about an interesting business offer, something that you
               wanted to ask, or anything else.
               <em>
@@ -279,17 +282,18 @@
               <div class="sm:col-span-2">
                 <label
                   for="subject"
-                  class="block text-sm font-medium text-gray-200"
+                  class="block font-medium leading-loose text-gray-200"
                 >
                   Subject
                 </label>
+
                 <div class="mt-1">
                   <input
                     id="subject"
                     required
                     type="text"
                     name="subject"
-                    class="block w-full text-white rounded-md border-darkGray-300 bg-darkGray-700 focus:focus-util sm:text-sm"
+                    class="block w-full text-white rounded-md border-darkGray-300 bg-darkGray-500 focus:focus-util sm:text-sm"
                   />
                 </div>
               </div>
@@ -298,17 +302,18 @@
               <div class="sm:col-span-6">
                 <label
                   for="message"
-                  class="block text-sm font-medium text-gray-200"
+                  class="block font-medium leading-loose text-gray-200"
                 >
                   Message
                 </label>
+
                 <div class="mt-1">
                   <textarea
                     id="message"
                     required
                     name="body"
                     rows="3"
-                    class="block w-full text-white rounded-md border-darkGray-300 bg-darkGray-700 focus:focus-util sm:text-sm"
+                    class="block w-full text-white rounded-md border-darkGray-300 bg-darkGray-500 focus:focus-util sm:text-sm"
                   />
                 </div>
               </div>
