@@ -1,25 +1,27 @@
 <template>
-  <main
+  <div
     class="h-full container__outer"
     style="padding-top: 0px; padding-bottom: 0px"
   >
-    <div class="flex flex-col h-full py-3 container__inner">
-      <article class="flex-grow">
+    <main class="py-2 container__inner">
+      <NuxtLink to="/" class="text-lg link"> &larr; Home </NuxtLink>
+
+      <Spacer class="mt-1 mb-4" />
+
+      <article>
         <!-- Title -->
-        <h1 class="text-lg text-gray-200">{{ project.title }}</h1>
+        <h1 class="text-lg font-medium leading-tight text-gray-200">Project</h1>
+        <h2 class="text-lg text-gray-200">{{ project.title }}</h2>
 
         <!-- Image -->
-        <div class="flex justify-center my-3">
-          <picture
-            class="w-full h-auto overflow-hidden border rounded-md sm:max-w-screen-sm border-darkGray-300"
-          >
-            <img
-              :src="project.imageUrl"
-              :height="project.imageHeight"
-              :width="project.imageWidth"
-              :alt="`${project.title} cover image`"
-            />
-          </picture>
+        <div class="m-3 overflow-hidden border rounded-md border-darkGray-300">
+          <img
+            :src="project.imageUrl"
+            :height="project.imageHeight"
+            :width="project.imageWidth"
+            class="w-full h-auto mx-auto"
+            :alt="`${project.title} cover image`"
+          />
         </div>
 
         <!-- Content -->
@@ -32,14 +34,12 @@
         :next-project="nextProject"
         :content-dir="contentDir"
       />
-    </div>
-  </main>
+    </main>
+  </div>
 </template>
 
 <script>
 export default {
-  layout: 'projects',
-
   async asyncData({ $content, params, error }) {
     const contentDir = 'projects'
 
@@ -66,8 +66,10 @@ export default {
   },
 
   head() {
+    const projectTitle = `${this.project.title} - Project`
+
     return {
-      title: this.project.title,
+      title: projectTitle,
 
       meta: [
         {
@@ -77,7 +79,7 @@ export default {
         },
 
         // Open Graph
-        { hid: 'og:title', property: 'og:title', content: this.project.title },
+        { hid: 'og:title', property: 'og:title', content: projectTitle },
         {
           hid: 'og:description',
           property: 'og:description',
