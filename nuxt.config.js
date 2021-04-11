@@ -1,5 +1,5 @@
 import TailwindConfig from './tailwind.config'
-import { createSitemapRoutes } from './components/pages/projects/utils/createSitemapRoutes.js'
+import { createSitemapRoutes } from './utils/createSitemapRoutes.js'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
