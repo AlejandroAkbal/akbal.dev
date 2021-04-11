@@ -148,6 +148,10 @@ module.exports = {
         // '1/2': '50%',
         // '3/4': '75%',
       },
+
+      fontFamily: {
+        sans: ['Inter var', ...defaultTheme.fontFamily.sans],
+      },
     },
   },
 

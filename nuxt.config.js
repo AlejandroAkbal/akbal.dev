@@ -82,6 +82,9 @@ export default {
         href:
           'https://cdn.statically.io/img/raw.githubusercontent.com/h=32,w=32,q=90/AlejandroAkbal/brand/main/src/assets/Logo_white.png',
       },
+
+      // Font
+      { rel: 'stylesheet', href: 'https://rsms.me/inter/inter.css' },
     ],
   },
 
