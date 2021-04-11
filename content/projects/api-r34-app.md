@@ -1,5 +1,5 @@
 ---
-title: Rule 34 API - Project
+title: Rule 34 API
 description: 'Project information'
 imageUrl: '/images/projects/api-r34-app.png'
 imageHeight: 1280

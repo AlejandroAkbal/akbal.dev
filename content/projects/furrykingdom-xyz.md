@@ -1,5 +1,5 @@
 ---
-title: Furry Kingdom - Project
+title: Furry Kingdom
 description: 'Commercial project for a community based website where I was tasked to design and build the Front end.'
 imageUrl: '/images/projects/furrykingdom-xyz.png'
 imageHeight: 1280

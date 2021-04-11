@@ -1,5 +1,5 @@
 ---
-title: AnimeBoxes Tag Backup Generator - Project
+title: AnimeBoxes Tag Backup Generator
 description: 'Project information'
 imageUrl: '/images/projects/animeboxes-tag-backup-generator.png'
 imageHeight: 1280

@@ -1,5 +1,5 @@
 ---
-title: Rule 34 App - Project
+title: Rule 34 App
 description: 'A NSFW Progressive Web Application.'
 imageUrl: '/images/projects/r34-app.png'
 imageHeight: 1280

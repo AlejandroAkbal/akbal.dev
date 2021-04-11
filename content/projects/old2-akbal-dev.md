@@ -1,5 +1,5 @@
 ---
-title: old2.akbal.dev - Project
+title: old2.akbal.dev
 description: 'The second version of my website.'
 imageUrl: '/images/projects/akbal-dev.png'
 imageHeight: 1280

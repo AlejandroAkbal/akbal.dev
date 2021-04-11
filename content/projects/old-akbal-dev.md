@@ -1,5 +1,5 @@
 ---
-title: old.akbal.dev - Project
+title: old.akbal.dev
 description: 'My very first website.'
 imageUrl: '/images/projects/old-akbal-dev.png'
 # imageUrls: ['/images/projects/old-akbal-dev.png']

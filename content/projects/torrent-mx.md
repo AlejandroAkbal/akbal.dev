@@ -1,5 +1,5 @@
 ---
-title: Torrent Mxchine - Project
+title: Torrent Mxchine
 description: 'Commercial project for a Torrent-based website where I was tasked to design and build the Front end.'
 imageUrl: '/images/projects/torrent-mx.png'
 imageHeight: 1280
