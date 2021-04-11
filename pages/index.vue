@@ -292,7 +292,7 @@
                     required
                     type="text"
                     name="subject"
-                    class="block w-full text-white rounded-md shadow-sm border-darkGray-300 bg-darkGray-700 focus:focus-util sm:text-sm"
+                    class="block w-full text-white rounded-md border-darkGray-300 bg-darkGray-700 focus:focus-util sm:text-sm"
                   />
                 </div>
               </div>
@@ -311,7 +311,7 @@
                     required
                     name="body"
                     rows="3"
-                    class="block w-full text-white rounded-md shadow-sm border-darkGray-300 bg-darkGray-700 focus:focus-util sm:text-sm"
+                    class="block w-full text-white rounded-md border-darkGray-300 bg-darkGray-700 focus:focus-util sm:text-sm"
                   />
                 </div>
               </div>
@@ -321,7 +321,7 @@
             <div class="flex mt-8 sm:justify-end">
               <button
                 type="submit"
-                class="w-full px-4 py-2 text-sm font-medium text-white border border-transparent rounded-md shadow-sm bg-orchid-600 sm:w-auto hover:bg-orchid-500 focus:focus-util"
+                class="w-full px-4 py-2 text-sm font-medium text-white border border-transparent rounded-md bg-orchid-600 sm:w-auto hover:bg-orchid-500 focus:focus-util"
               >
                 Submit
               </button>
