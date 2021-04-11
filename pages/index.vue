@@ -25,15 +25,15 @@
       >
         <ul class="flex justify-around font-light container__inner">
           <li>
-            <a class="link" href="#about_me">About me</a>
+            <a class="link focus:focus-util" href="#about_me">About me</a>
           </li>
 
           <li>
-            <a class="link" href="#projects">Projects</a>
+            <a class="link focus:focus-util" href="#projects">Projects</a>
           </li>
 
           <li>
-            <a class="link" href="#contact">Contact</a>
+            <a class="link focus:focus-util" href="#contact">Contact</a>
           </li>
         </ul>
       </nav>
@@ -61,7 +61,7 @@
               <li class="mx-2">
                 I like to write
                 <a
-                  class="link"
+                  class="link focus:focus-util"
                   href="https://redirect.akbal.dev/blog"
                   target="_blank"
                   rel="noopener"
@@ -73,7 +73,7 @@
               <li>
                 Tinker with
                 <a
-                  class="link"
+                  class="link focus:focus-util"
                   href="https://redirect.akbal.dev/github"
                   target="_blank"
                   rel="noopener"
@@ -85,7 +85,7 @@
               <li>
                 Create
                 <a
-                  class="link"
+                  class="link focus:focus-util"
                   href="https://github.com/AlejandroAkbal/Designs"
                 >
                   designs and mock-ups
@@ -259,10 +259,10 @@
               <em>
                 But keep it
                 <a
-                  class="link"
+                  class="link focus:focus-util"
                   href="https://dictionary.cambridge.org/dictionary/english/succinct"
                 >
-                  succinct</a
+                  succinct </a
                 >.
               </em>
             </p>
@@ -326,7 +326,11 @@
 
           <p class="mt-8 text-xs text-right text-gray-400">
             Or send an email to
-            <a class="link" href="mailto:contact@akbal.dev" target="_top">
+            <a
+              class="link focus:focus-util"
+              href="mailto:contact@akbal.dev"
+              target="_top"
+            >
               contact@akbal.dev</a
             >.
           </p>

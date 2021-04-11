@@ -31,8 +31,20 @@
     @apply max-w-3xl mx-auto;
   }
 
+  .focus-util {
+    /*
+    * NOT TO BE USED DIRECTLY AS CSS 
+    * IN CLASSES IT SHOULD BE USED AS `focus:focus-util`
+    */
+    @apply outline-none ring ring-orchid-400;
+  }
+
   .link {
-    @apply text-orchid-400 hover:text-orchid-500 focus:outline-none focus:ring focus:ring-orchid-400;
+    @apply text-orchid-500;
+  }
+
+  .link:hover {
+    @apply text-orchid-400;
   }
 }
 /**

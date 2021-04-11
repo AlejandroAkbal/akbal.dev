@@ -9,7 +9,7 @@
             name: `${contentDir}-slug`,
             params: { slug: prevProject.slug },
           }"
-          class="link"
+          class="link focus:focus-util"
         >
           {{ prevProject.title }}
         </NuxtLink>
@@ -25,7 +25,7 @@
             name: `${contentDir}-slug`,
             params: { slug: nextProject.slug },
           }"
-          class="link"
+          class="link focus:focus-util"
         >
           {{ nextProject.title }}
         </NuxtLink>

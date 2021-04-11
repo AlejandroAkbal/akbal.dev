@@ -5,7 +5,9 @@
       style="padding-top: 0px; padding-bottom: 0px; margin-left: 0px"
     >
       <div class="p-3 container__inner">
-        <NuxtLink to="/" class="link"> &larr; Go back </NuxtLink>
+        <NuxtLink to="/" class="link focus:focus-util">
+          &larr; Go back
+        </NuxtLink>
       </div>
     </div>
 
