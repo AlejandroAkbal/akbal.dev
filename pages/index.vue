@@ -266,7 +266,7 @@
                   class="link focus:focus-util"
                   href="https://dictionary.cambridge.org/dictionary/english/succinct"
                 >
-                  succinct </a
+                  succinct</a
                 >.
               </em>
             </p>
