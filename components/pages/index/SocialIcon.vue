@@ -15,7 +15,7 @@
         stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
-        class="w-6 h-6 transition-colors icon group-hover:text-orchid-500"
+        class="w-6 h-6 transition-colors icon group-hover:text-orchid-400"
         :aria-label="`${title} icon`"
       >
         <slot />
