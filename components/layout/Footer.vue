@@ -5,6 +5,6 @@
     >
       Alejandro Akbal
     </h3>
-    <h4 class="tracking-tight text-gray-400">&copy; 2000 - Present</h4>
+    <h4 class="tracking-tight text-gray-300">&copy; 2000 - Present</h4>
   </footer>
 </template>

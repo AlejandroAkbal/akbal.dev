@@ -54,7 +54,7 @@
               I'm Alejandro Akbal
             </h1>
 
-            <h2 class="mb-1 text-lg text-gray-300">
+            <h2 class="mb-1 text-lg text-gray-200">
               A software engineer based on Spain.
               <i class="text-sm">UTC+1</i>
             </h2>
@@ -106,7 +106,7 @@
             </p>
 
             <div class="mt-4">
-              <p class="text-center text-gray-200">Find me on</p>
+              <h3 class="text-center text-gray-200">Find me on</h3>
 
               <ul class="flex flex-wrap justify-center gap-4 mt-4">
                 <!-- Blog -->
@@ -160,7 +160,7 @@
       <section id="projects" class="container__outer">
         <div class="container__inner">
           <h2 class="text-lg font-medium leading-6 text-gray-200">Projects</h2>
-          <p class="mt-1 text-sm text-gray-400">
+          <p class="mt-1 text-sm text-gray-300">
             Some of the work that I am proud of.
           </p>
         </div>
@@ -243,7 +243,7 @@
         </div>
 
         <div class="mt-2 container__inner">
-          <p class="text-xs text-gray-400">
+          <p class="text-xs text-gray-300">
             You can scroll through the list. &rarr;
           </p>
         </div>
@@ -257,7 +257,7 @@
           <div>
             <h2 class="text-lg font-medium leading-6 text-gray-200">Contact</h2>
 
-            <p class="mt-1 text-sm text-gray-400">
+            <p class="mt-1 text-sm text-gray-300">
               Tell me about an interesting business offer, something that you
               wanted to ask, or anything else.
               <em>
@@ -282,7 +282,7 @@
               <div class="sm:col-span-2">
                 <label
                   for="subject"
-                  class="block text-sm font-medium text-gray-300"
+                  class="block text-sm font-medium text-gray-200"
                 >
                   Subject
                 </label>
@@ -301,7 +301,7 @@
               <div class="sm:col-span-6">
                 <label
                   for="message"
-                  class="block text-sm font-medium text-gray-300"
+                  class="block text-sm font-medium text-gray-200"
                 >
                   Message
                 </label>
@@ -328,7 +328,7 @@
             </div>
           </form>
 
-          <p class="mt-8 text-xs text-right text-gray-400">
+          <p class="mt-8 text-xs text-right text-gray-300">
             Or send an email to
             <a
               class="link focus:focus-util"

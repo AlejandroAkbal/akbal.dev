@@ -22,7 +22,7 @@
         <h3 class="text-gray-200">
           {{ title }}
         </h3>
-        <p class="text-sm text-gray-400">
+        <p class="text-sm text-gray-300">
           {{ description }}
         </p>
       </div>

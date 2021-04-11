@@ -76,7 +76,7 @@
 /* Nuxt-Content Overrides */
 
 .nuxt-content {
-  @apply prose-sm text-gray-400;
+  @apply prose-sm text-gray-300;
 }
 
 .nuxt-content h1,
@@ -92,7 +92,7 @@
 }
 
 .nuxt-content p {
-  @apply text-gray-400;
+  @apply text-gray-300;
 }
 
 .nuxt-content a {
