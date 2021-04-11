@@ -32,6 +32,13 @@
     @apply max-w-3xl mx-auto;
   }
 
+  .icon {
+    stroke-width: 1.5;
+
+    /* Align middle is necessary for some reason for mobile devices */
+    @apply overflow-visible text-white align-middle;
+  }
+
   .focus-util {
     /*
     * NOT TO BE USED DIRECTLY AS CSS 
