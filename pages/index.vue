@@ -3,7 +3,7 @@
     <header>
       <!-- Hero image -->
       <div
-        class="flex pb-10 overflow-hidden bg-gradient-to-br from-accent-600 to-primary-600"
+        class="flex overflow-hidden bg-gradient-to-br from-accent-600 to-primary-600"
       >
         <picture
           class="w-full h-auto m-auto transition-transform duration-500 ease-in-out delay-500 transform sm:max-w-screen-sm hover:scale-125"
@@ -53,7 +53,6 @@
 
             <h2 class="text-lg font-medium leading-loose text-gray-200">
               A software engineer based on Spain.
-              <i class="text-sm">UTC+1</i>
             </h2>
 
             <p class="text-gray-300">I have many passions…</p>
