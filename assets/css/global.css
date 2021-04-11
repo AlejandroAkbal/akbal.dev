@@ -16,6 +16,7 @@
     overscroll-behavior: none;
   }
 }
+
 /**
 *
 * Classes
@@ -47,6 +48,7 @@
     @apply text-orchid-400;
   }
 }
+
 /**
 *
 * Animations
