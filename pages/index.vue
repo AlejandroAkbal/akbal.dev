@@ -3,7 +3,7 @@
     <header>
       <!-- Hero image -->
       <div
-        class="flex pb-10 overflow-hidden bg-gradient-to-br from-a-violet-500 to-a-purple-500"
+        class="flex pb-10 overflow-hidden bg-gradient-to-br from-accent-600 to-primary-600"
       >
         <picture
           class="w-full h-auto m-auto transition-transform duration-500 ease-in-out delay-500 transform sm:max-w-screen-sm hover:scale-125"
@@ -321,7 +321,7 @@
             <div class="flex mt-8 sm:justify-end">
               <button
                 type="submit"
-                class="w-full px-4 py-2 text-sm font-medium text-white border border-transparent rounded-md bg-orchid-600 sm:w-auto hover:bg-orchid-500 focus:focus-util"
+                class="w-full px-4 py-2 text-sm font-medium text-white border border-transparent rounded-md bg-primary-600 sm:w-auto hover:bg-primary-500 focus:focus-util"
               >
                 Submit
               </button>

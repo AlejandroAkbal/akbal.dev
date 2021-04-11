@@ -48,7 +48,7 @@ export default {
       {
         hid: 'theme-color',
         name: 'theme-color',
-        content: TailwindConfig.theme.extend.colors.brand,
+        content: TailwindConfig.theme.extend.colors.darkGray['700'],
       },
 
       // Open Graph

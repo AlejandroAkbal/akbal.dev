@@ -1,6 +1,6 @@
 <template>
   <li
-    class="p-2 border-2 rounded-full border-darkGray-300 bg-darkGray-500 focus-within:border-orchid-500"
+    class="p-2 border-2 rounded-full border-darkGray-300 bg-darkGray-500 focus-within:border-primary-500"
   >
     <a
       :href="href"
@@ -15,7 +15,7 @@
         stroke="currentColor"
         stroke-linecap="round"
         stroke-linejoin="round"
-        class="w-6 h-6 transition-colors icon group-hover:text-orchid-400"
+        class="w-6 h-6 transition-colors icon group-hover:text-primary-400"
         :aria-label="`${title} icon`"
       >
         <slot />

@@ -4,6 +4,6 @@
 
 <style>
 .spacer {
-  @apply w-full h-px bg-gradient-to-r from-a-violet-500 to-a-purple-500;
+  @apply w-full h-px bg-gradient-to-r from-accent-600 to-primary-600;
 }
 </style>

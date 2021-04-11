@@ -44,15 +44,15 @@
     * NOT TO BE USED DIRECTLY AS CSS 
     * IN CLASSES IT SHOULD BE USED AS `focus:focus-util`
     */
-    @apply outline-none ring ring-orchid-400;
+    @apply outline-none ring ring-primary-400;
   }
 
   .link {
-    @apply text-orchid-500;
+    @apply text-primary-500;
   }
 
   .link:hover {
-    @apply text-orchid-400;
+    @apply text-primary-400;
   }
 }
 
