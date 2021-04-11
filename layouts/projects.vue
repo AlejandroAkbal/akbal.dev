@@ -15,10 +15,6 @@
     <div class="flex-grow overflow-hidden">
       <Nuxt />
     </div>
-
-    <Spacer />
-
-    <Footer />
   </div>
 </template>
 
