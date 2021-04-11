@@ -130,7 +130,7 @@ module.exports = {
       colors: {
         // primary: generatedColors.orchid,
 
-        'a-black': {
+        darkGray: {
           300: 'hsl(200, 6%, 14%)',
           500: 'hsl(200, 6%, 10%)', // OG
           700: 'hsl(200, 6%, 6%)',

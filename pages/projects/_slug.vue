@@ -11,7 +11,7 @@
         <!-- Image -->
         <div class="flex justify-center my-3">
           <picture
-            class="w-full h-auto overflow-hidden border rounded-md sm:max-w-screen-sm border-a-black-300"
+            class="w-full h-auto overflow-hidden border rounded-md sm:max-w-screen-sm border-darkGray-300"
           >
             <img
               :src="project.imageUrl"

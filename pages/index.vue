@@ -295,7 +295,7 @@
                     required
                     type="text"
                     name="subject"
-                    class="block w-full text-white rounded-md shadow-sm border-a-black-300 bg-a-black-700 focus:outline-none focus:ring-orchid-500 focus:border-orchid-500 sm:text-sm"
+                    class="block w-full text-white rounded-md shadow-sm border-darkGray-300 bg-darkGray-700 focus:outline-none focus:ring-orchid-500 focus:border-orchid-500 sm:text-sm"
                   />
                 </div>
               </div>
@@ -314,7 +314,7 @@
                     required
                     name="body"
                     rows="3"
-                    class="block w-full text-white rounded-md shadow-sm border-a-black-300 bg-a-black-700 focus:ring-orchid-500 focus:border-orchid-500 sm:text-sm"
+                    class="block w-full text-white rounded-md shadow-sm border-darkGray-300 bg-darkGray-700 focus:ring-orchid-500 focus:border-orchid-500 sm:text-sm"
                   ></textarea>
                 </div>
               </div>

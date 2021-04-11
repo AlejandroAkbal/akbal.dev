@@ -1,6 +1,6 @@
 <template>
   <li
-    class="h-full min-w-full overflow-hidden border rounded-md sm:min-w-1/4 test snap-center bg-a-black-700 border-a-black-300 focus-within:ring-orchid-500 focus-within:border-orchid-500"
+    class="h-full min-w-full overflow-hidden border rounded-md sm:min-w-1/4 test snap-center bg-darkGray-700 border-darkGray-300 focus-within:ring-orchid-500 focus-within:border-orchid-500"
   >
     <div class="flex flex-col">
       <!-- Image -->
