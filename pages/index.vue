@@ -107,8 +107,8 @@
               <ul class="flex flex-wrap justify-center gap-4 mt-4">
                 <!-- Blog -->
                 <SocialIcon title="Blog" href="https://redirect.akbal.dev/blog">
-                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
-                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
                 </SocialIcon>
 
                 <!-- GitHub -->
@@ -118,7 +118,7 @@
                 >
                   <path
                     d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
-                  ></path>
+                  />
                 </SocialIcon>
 
                 <!-- Twitter -->
@@ -128,7 +128,7 @@
                 >
                   <path
                     d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"
-                  ></path>
+                  />
                 </SocialIcon>
 
                 <!-- LinkedIn -->
@@ -138,9 +138,9 @@
                 >
                   <path
                     d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
-                  ></path>
-                  <rect x="2" y="9" width="4" height="12"></rect>
-                  <circle cx="4" cy="4" r="2"></circle>
+                  />
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
                 </SocialIcon>
               </ul>
             </div>
@@ -174,8 +174,7 @@
               :img-height="1600"
               visit-link-href="https://r34.app/?domain=safebooru.org"
               read-more-link-href="/projects/r34-app"
-            >
-            </ProjectCard>
+            />
 
             <ProjectCard
               title="Rule 34 API"
@@ -185,8 +184,7 @@
               :img-height="1280"
               visit-link-href="https://redirect.r34.app/github/api"
               read-more-link-href="/projects/api-r34-app"
-            >
-            </ProjectCard>
+            />
 
             <ProjectCard
               title="Furry Kingdom"
@@ -196,8 +194,7 @@
               :img-height="1280"
               visit-link-href="https://furrykingdom.netlify.app"
               read-more-link-href="/projects/furrykingdom-xyz"
-            >
-            </ProjectCard>
+            />
 
             <ProjectCard
               title="Torrent Mxchine"
@@ -207,8 +204,7 @@
               :img-height="1280"
               visit-link-href="https://alejandroakbal.github.io/Torrent.mx"
               read-more-link-href="/projects/torrent-mx"
-            >
-            </ProjectCard>
+            />
 
             <ProjectCard
               title="AnimeBoxes Tag Backup Generator"
@@ -218,8 +214,7 @@
               :img-height="1280"
               visit-link-href="https://alejandroakbal.github.io/AnimeBoxes-Tag-Backup-Generator"
               read-more-link-href="/projects/animeboxes-tag-backup-generator"
-            >
-            </ProjectCard>
+            />
 
             <ProjectCard
               title="Web portfolio"
@@ -229,8 +224,7 @@
               :img-height="1280"
               visit-link-href="https://old2.akbal.dev"
               read-more-link-href="/projects/old2-akbal-dev"
-            >
-            </ProjectCard>
+            />
 
             <ProjectCard
               title="My first website"
@@ -240,8 +234,7 @@
               :img-height="1280"
               visit-link-href="https://old.akbal.dev"
               read-more-link-href="/projects/old-akbal-dev"
-            >
-            </ProjectCard>
+            />
           </ul>
         </div>
 
@@ -315,7 +308,7 @@
                     name="body"
                     rows="3"
                     class="block w-full text-white rounded-md shadow-sm border-darkGray-300 bg-darkGray-700 focus:ring-orchid-500 focus:border-orchid-500 sm:text-sm"
-                  ></textarea>
+                  />
                 </div>
               </div>
             </div>
