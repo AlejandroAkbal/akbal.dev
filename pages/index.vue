@@ -19,10 +19,7 @@
       </div>
 
       <!-- Navbar -->
-      <nav
-        class="p-4 bg-black -mt-14 bg-opacity-80"
-        style="backdrop-filter: blur(2px)"
-      >
+      <nav class="p-4">
         <ul class="flex justify-around container__inner">
           <li>
             <a class="text-lg link focus:focus-util" href="#about_me"
