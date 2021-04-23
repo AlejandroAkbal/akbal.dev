@@ -161,7 +161,7 @@
 
         <div class="mt-4">
           <ul
-            class="flex justify-start gap-4 pb-4 overflow-x-auto sm:no-snap snap snap-x snap-proximity"
+            class="grid grid-flow-col auto-cols-[100%] sm:auto-cols-[25%] gap-4 pb-4 overflow-x-auto sm:no-snap snap snap-x snap-proximity"
             dir="ltr"
           >
             <ProjectCard

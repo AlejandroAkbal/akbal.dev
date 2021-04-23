@@ -1,8 +1,8 @@
 <template>
   <li
-    class="h-full min-w-full overflow-hidden border rounded-md sm:min-w-1/4 test snap-center bg-darkGray-500 border-darkGray-300"
+    class="overflow-hidden border rounded-md snap-center bg-darkGray-500 border-darkGray-300"
   >
-    <div class="flex flex-col">
+    <div class="flex flex-col w-full h-full">
       <!-- Image -->
       <div class="flex justify-center">
         <picture class="w-full h-auto">
