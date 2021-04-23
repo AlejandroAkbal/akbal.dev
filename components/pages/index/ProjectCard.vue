@@ -4,17 +4,16 @@
   >
     <div class="flex flex-col w-full h-full">
       <!-- Image -->
-      <div class="flex justify-center">
-        <picture class="w-full h-auto">
-          <img
-            :src="imgSrc"
-            :height="imgHeight"
-            :width="imgWidth"
-            :alt="`${title} cover image`"
-            decoding="async"
-            loading="lazy"
-          />
-        </picture>
+      <div class="flex justify-center bg-darkGray-700">
+        <img
+          :src="imgSrc"
+          :alt="`${title} cover image`"
+          :height="imgHeight"
+          :width="imgWidth"
+          decoding="async"
+          loading="lazy"
+          class="object-cover w-full h-auto"
+        />
       </div>
 
       <!-- Description -->
