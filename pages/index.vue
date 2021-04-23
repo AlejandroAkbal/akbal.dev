@@ -5,17 +5,14 @@
       <div
         class="flex overflow-hidden bg-gradient-to-br from-accent-600 to-primary-600"
       >
-        <picture
-          class="w-full h-auto m-auto transition-transform duration-500 ease-in-out delay-500 transform sm:max-w-screen-sm hover:scale-125"
-        >
-          <img
-            id="logo"
-            height="1024"
-            width="1024"
-            src="https://cdn.statically.io/img/raw.githubusercontent.com/h=1024,w=1024,q=90/AlejandroAkbal/brand/main/src/assets/Logo_transparent.png"
-            alt="Alejandro Akbal Logo"
-          />
-        </picture>
+        <img
+          id="logo"
+          src="https://cdn.statically.io/img/raw.githubusercontent.com/h=1024,w=1024,q=90/AlejandroAkbal/brand/main/src/assets/Logo_transparent.png"
+          alt="Alejandro Akbal Logo"
+          height="1024"
+          width="1024"
+          class="w-full h-auto m-auto sm:max-w-screen-sm"
+        />
       </div>
 
       <!-- Navbar -->
