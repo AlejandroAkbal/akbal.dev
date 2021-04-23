@@ -147,28 +147,12 @@ module.exports = {
           500: 'hsl(200, 6%, 10%)', // Elevated BG // Original color
           700: 'hsl(200, 6%, 6%)', // Background
         },
-
-        // ...defaultColors,
-      },
-
-      minWidth: {
-        '1/4': '25%',
-        // '1/2': '50%',
-        // '3/4': '75%',
       },
 
       fontFamily: {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
       },
     },
-  },
-
-  variants: {
-    extend: {
-      textColor: ['group-focus'],
-    },
-
-    scrollSnapType: ['responsive'],
   },
 
   plugins: [
