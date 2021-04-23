@@ -166,7 +166,7 @@
           >
             <ProjectCard
               title="Rule 34 App"
-              description="A NSFW Progressive Web Application with more than 2500 daily users."
+              description="A NSFW Progressive Web Application with more than 3500 daily users."
               img-src="/images/projects/r34-app.png"
               :img-width="1600"
               :img-height="1600"
