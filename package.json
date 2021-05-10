@@ -12,7 +12,7 @@
   "dependencies": {
     "@nuxt/content": "^1.14.0",
     "nuxt": "^2.15.4",
-    "vue-matomo": "^3.14.0-0"
+    "vue-matomo": "^4.0.0"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.4",
