@@ -302,10 +302,10 @@
                 <div class="mt-1">
                   <input
                     id="subject"
-                    required
                     type="text"
                     name="subject"
                     class="block w-full text-white rounded-md border-darkGray-300 bg-darkGray-500 focus:focus-util sm:text-sm"
+                    required
                   />
                 </div>
               </div>
@@ -322,10 +322,10 @@
                 <div class="mt-1">
                   <textarea
                     id="message"
-                    required
                     name="body"
                     rows="3"
                     class="block w-full text-white rounded-md border-darkGray-300 bg-darkGray-500 focus:focus-util sm:text-sm"
+                    required
                   />
                 </div>
               </div>
