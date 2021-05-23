@@ -1,4 +1,4 @@
-import TailwindConfig from './tailwind.config'
+import * as TAILWIND_CONFIG from './tailwind.config'
 import { createSitemapRoutes } from './utils/createSitemapRoutes.js'
 
 export default {
@@ -48,7 +48,7 @@ export default {
       {
         hid: 'theme-color',
         name: 'theme-color',
-        content: TailwindConfig.theme.extend.colors.darkGray['700'],
+        content: TAILWIND_CONFIG.theme.extend.colors.darkGray['700'],
       },
 
       // Open Graph
@@ -104,11 +104,9 @@ export default {
   ],
 
   tailwindcss: {
-    viewer: true,
+    viewer: false,
 
     cssPath: '~/assets/css/global.css',
-
-    jit: true,
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
