@@ -270,6 +270,26 @@
 
           <form method="POST" data-netlify="true">
             <div class="grid grid-cols-1 mt-6 gap-y-6 gap-x-4 sm:grid-cols-6">
+              <!-- Email -->
+              <div class="sm:col-span-3 col-">
+                <label
+                  for="email"
+                  class="block font-medium leading-loose text-gray-200"
+                >
+                  Email
+                </label>
+
+                <div class="mt-1">
+                  <input
+                    id="email"
+                    type="email"
+                    name="email"
+                    class="block w-full text-white rounded-md border-darkGray-300 bg-darkGray-500 focus:focus-util sm:text-sm"
+                    required
+                  />
+                </div>
+              </div>
+
               <!-- Subject -->
               <div class="sm:col-span-2">
                 <label
