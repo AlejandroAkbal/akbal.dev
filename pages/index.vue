@@ -269,6 +269,8 @@
           </div>
 
           <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+            <input type="hidden" name="form-name" value="contact" />
+
             <div class="grid grid-cols-1 mt-6 gap-y-6 gap-x-4 sm:grid-cols-6">
               <!-- Email -->
               <div class="sm:col-span-3 col-">
