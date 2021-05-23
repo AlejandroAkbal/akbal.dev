@@ -291,7 +291,7 @@
               </div>
 
               <!-- Subject -->
-              <div class="sm:col-span-2">
+              <div class="sm:col-start-1 sm:col-span-2">
                 <label
                   for="subject"
                   class="block font-medium leading-loose text-gray-200"
