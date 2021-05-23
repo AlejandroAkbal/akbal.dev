@@ -284,7 +284,7 @@
                     id="email"
                     type="email"
                     name="email"
-                    class="block w-full text-white rounded-md border-darkGray-300 bg-darkGray-500 focus:focus-util sm:text-sm"
+                    class="block w-full text-white rounded-md form-input border-darkGray-300 bg-darkGray-500 focus:focus-util sm:text-sm"
                     required
                   />
                 </div>
@@ -304,7 +304,7 @@
                     id="subject"
                     type="text"
                     name="subject"
-                    class="block w-full text-white rounded-md border-darkGray-300 bg-darkGray-500 focus:focus-util sm:text-sm"
+                    class="block w-full text-white rounded-md border-darkGray-300 bg-darkGray-500 focus:focus-util sm:text-sm form-input"
                     required
                   />
                 </div>
@@ -324,7 +324,7 @@
                     id="message"
                     name="body"
                     rows="3"
-                    class="block w-full text-white rounded-md border-darkGray-300 bg-darkGray-500 focus:focus-util sm:text-sm"
+                    class="block w-full text-white rounded-md form-textarea border-darkGray-300 bg-darkGray-500 focus:focus-util sm:text-sm"
                     required
                   />
                 </div>
