@@ -268,11 +268,7 @@
             </p>
           </div>
 
-          <form
-            method="GET"
-            enctype="text/plain"
-            action="mailto:contact@akbal.dev"
-          >
+          <form method="POST" data-netlify="true">
             <div class="grid grid-cols-1 mt-6 gap-y-6 gap-x-4 sm:grid-cols-6">
               <!-- Subject -->
               <div class="sm:col-span-2">
