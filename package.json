@@ -11,26 +11,26 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
-    "nuxt": "^2.15.4",
-    "vue-matomo": "^3.14.0-0"
+    "nuxt": "^2.15.6",
+    "vue-matomo": "^4.0.0"
   },
   "devDependencies": {
-    "@nuxt/types": "^2.15.4",
+    "@nuxt/types": "^2.15.6",
     "@nuxtjs/eslint-config": "^6.0.0",
     "@nuxtjs/sitemap": "^2.4.0",
-    "@nuxtjs/tailwindcss": "^4.0.3",
+    "@nuxtjs/tailwindcss": "^4.1.2",
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/forms": "^0.3.2",
     "@tailwindcss/typography": "^0.4.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^7.24.0",
-    "eslint-config-prettier": "^8.1.0",
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-nuxt": "^2.0.0",
-    "eslint-plugin-prettier": "^3.3.1",
-    "eslint-plugin-vue": "^7.8.0",
-    "postcss": "^8.2.9",
-    "prettier": "^2.2.1",
-    "tailwindcss": "^2.1.1",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.9.0",
+    "postcss": "^8.3.0",
+    "prettier": "^2.3.0",
+    "tailwindcss": "^2.1.2",
     "tailwindcss-scroll-snap": "^1.1.0"
   }
 }
