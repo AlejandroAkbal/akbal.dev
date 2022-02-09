@@ -80,22 +80,16 @@
               </li>
 
               <li>
-                Create
-                <a
-                  class="link"
-                  href="https://github.com/AlejandroAkbal/Designs"
-                >
-                  designs and mock-ups
-                </a>
+                Create designs and mock-ups
               </li>
 
-              <li>Delve into accessibility concerns</li>
+              <li>Delve into accessibility</li>
 
               <li>Manage servers</li>
             </ul>
 
             <p class="text-gray-300">
-              And much more that I do in my every day.
+              And much more.
             </p>
 
             <div class="mt-4">
@@ -156,7 +150,7 @@
             Projects
           </h2>
 
-          <p class="mt-1 text-gray-300">Some of the work that I am proud of.</p>
+          <p class="mt-1 text-gray-300">Some of the work that I am most proud of.</p>
         </div>
 
         <div class="mt-4">
@@ -254,8 +248,7 @@
             </h2>
 
             <p class="text-gray-300">
-              Tell me about an interesting business offer, something that you
-              wanted to ask, or anything else.
+              Tell me about a business offer, an interesting fact, or anything else.
               <em>
                 But keep it
                 <a
