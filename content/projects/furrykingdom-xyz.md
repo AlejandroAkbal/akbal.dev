@@ -1,10 +1,10 @@
 ---
 title: Furry Kingdom
 description: 'Commercial project for a community based website where I was tasked to design and build the Front end.'
+creationDate: '2020-01-06'
 imageUrl: '/images/projects/furrykingdom-xyz.png'
 imageHeight: 1280
 imageWidth: 1280
-index: 4
 ---
 
 Commercial project for a community based website where I was tasked to design and build the Front end.

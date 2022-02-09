@@ -1,10 +1,10 @@
 ---
 title: old2.akbal.dev
 description: 'The second version of my website.'
+creationDate: '2019-04-27'
 imageUrl: '/images/projects/akbal-dev.png'
 imageHeight: 1280
 imageWidth: 1280
-index: 1
 ---
 
 The second version of my website.

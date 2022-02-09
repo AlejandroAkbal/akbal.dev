@@ -1,10 +1,10 @@
 ---
 title: Torrent Mxchine
 description: 'Commercial project for a Torrent-based website where I was tasked to design and build the Front end.'
+creationDate: '2019-05-29'
 imageUrl: '/images/projects/torrent-mx.png'
 imageHeight: 1280
 imageWidth: 1280
-index: 3
 ---
 
 Commercial project for a Torrent-based website where I was tasked to design and build the Front end.

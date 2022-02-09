@@ -1,11 +1,10 @@
 ---
 title: old.akbal.dev
 description: 'My very first website.'
+creationDate: '2018-11-21'
 imageUrl: '/images/projects/old-akbal-dev.png'
-# imageUrls: ['/images/projects/old-akbal-dev.png']
 imageHeight: 1280
 imageWidth: 1280
-index: 0
 ---
 
 My very first website.
