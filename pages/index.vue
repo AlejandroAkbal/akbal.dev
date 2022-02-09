@@ -158,9 +158,20 @@
             class="grid grid-flow-col auto-cols-[100%] sm:auto-cols-[25%] gap-4 pb-4 overflow-x-auto sm:no-snap snap snap-x snap-proximity"
             dir="ltr"
           >
+
+            <ProjectCard
+              title="ConstantLink"
+              description="Commercial project for e-book authors."
+              img-src="/images/projects/constant-link.jpg"
+              :img-width="1280"
+              :img-height="1280"
+              visit-link-href="https://constant.link"
+              read-more-link-href="/projects/constant-link"
+            />
+
             <ProjectCard
               title="Rule 34 App"
-              description="A NSFW Progressive Web Application with more than 5000 daily users."
+              description="NSFW Progressive Web Application with more than 12000 daily users."
               img-src="/images/projects/r34-app.png"
               :img-width="1600"
               :img-height="1600"
@@ -169,18 +180,8 @@
             />
 
             <ProjectCard
-              title="Rule 34 API"
-              description="The API that powers the Rule 34 App."
-              img-src="/images/projects/api-r34-app.png"
-              :img-width="1280"
-              :img-height="1280"
-              visit-link-href="https://redirect.r34.app/github/api"
-              read-more-link-href="/projects/api-r34-app"
-            />
-
-            <ProjectCard
               title="Furry Kingdom"
-              description="Commercial project for a community based website."
+              description="Commercial project for a community-based website."
               img-src="/images/projects/furrykingdom-xyz.png"
               :img-width="1280"
               :img-height="1280"
@@ -190,7 +191,7 @@
 
             <ProjectCard
               title="Torrent Mxchine"
-              description="Commercial project for a torrent based website."
+              description="Commercial project for a torrent-based website."
               img-src="/images/projects/torrent-mx.png"
               :img-width="1280"
               :img-height="1280"
@@ -199,27 +200,17 @@
             />
 
             <ProjectCard
-              title="AnimeBoxes Tag Backup Generator"
-              description="Simple web application for modifying backup data."
-              img-src="/images/projects/animeboxes-tag-backup-generator.png"
+              title="Steam Little Toolkit"
+              description="Web extension to improve the Steam store experience."
+              img-src="/images/projects/steam-little-toolkit.jpg"
               :img-width="1280"
               :img-height="1280"
-              visit-link-href="https://alejandroakbal.github.io/AnimeBoxes-Tag-Backup-Generator"
-              read-more-link-href="/projects/animeboxes-tag-backup-generator"
+              visit-link-href="https://github.com/AlejandroAkbal/Steam-Little-Toolkit-Browser-Extension"
+              read-more-link-href="/projects/steam-little-toolkit"
             />
 
             <ProjectCard
-              title="Web portfolio"
-              description="The past version of this website."
-              img-src="/images/projects/akbal-dev.png"
-              :img-width="1280"
-              :img-height="1280"
-              visit-link-href="https://old2.akbal.dev"
-              read-more-link-href="/projects/old2-akbal-dev"
-            />
-
-            <ProjectCard
-              title="My first website"
+              title="Akbal's website"
               description="My very first website. Kept as a memory."
               img-src="/images/projects/old-akbal-dev.png"
               :img-width="1280"
