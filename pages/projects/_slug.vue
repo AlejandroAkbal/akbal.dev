@@ -3,6 +3,7 @@
     class="h-full container__outer"
     style="padding-top: 0px; padding-bottom: 0px"
   >
+
     <main class="py-2 container__inner">
       <NuxtLink to="/" class="text-lg link"> &larr; Home </NuxtLink>
 
@@ -49,8 +50,8 @@ export default {
       const project = await $content(contentDir, slug).fetch()
 
       const [prevProject, nextProject] = await $content(contentDir)
-        .only(['title', 'slug'])
-        .sortBy('index', 'desc')
+        .only(['title', 'slug', 'creationDate'])
+        .sortBy('creationDate', 'desc')
         .surround(slug)
         .fetch()
 
