@@ -1,8 +1,8 @@
 ---
-title: ConstantLink
+title: PermanentLink
 description: 'Commercial project for e-book authors.'
 creationDate: '2021-07-05'
-imageUrl: '/images/projects/constant-link.jpg'
+imageUrl: '/images/projects/permanent-link-com.jpg'
 imageHeight: 1280
 imageWidth: 1280
 index: 7
@@ -23,11 +23,11 @@ Ultimately, I decided to create my own, while learning Laravel on the process.
 The beautiful art displayed in this project is the work of [Ana Tejedor Díez](https://anatejedordiez.com/).
 
 Finally, its worth mentioning that this is my very first [open startup](https://openstartup.tm/) project.
-This means that all the revenue and metrics are shared in the [open page](https://constant.link/open).
+This means that all the revenue and metrics are shared in the [open page](https://permanent-link.com/open).
 
 ## Links
 
-- [Live website](https://constant.link).
+- [Live website](https://permanent-link.com).
 - [Twitter](https://twitter.com/Constant_Link).
 
 ## Notable Technologies

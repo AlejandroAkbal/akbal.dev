@@ -160,13 +160,13 @@
           >
 
             <ProjectCard
-              title="ConstantLink"
+              title="PermanentLink"
               description="Commercial project for e-book authors."
-              img-src="/images/projects/constant-link.jpg"
+              img-src="/images/projects/permanent-link-com.jpg"
               :img-width="1280"
               :img-height="1280"
-              visit-link-href="https://constant.link"
-              read-more-link-href="/projects/constant-link"
+              visit-link-href="https://permanent-link.com"
+              read-more-link-href="/projects/permanent-link-com"
             />
 
             <ProjectCard
