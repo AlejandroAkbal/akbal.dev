@@ -7,7 +7,7 @@
       >
         <img
           id="logo"
-          src="https://cdn.statically.io/img/raw.githubusercontent.com/h=1024,w=1024,q=90/AlejandroAkbal/brand/main/src/assets/Logo_transparent.png"
+          src="/images/brand/logo_transparent.png"
           alt="Alejandro Akbal Logo"
           height="1024"
           width="1024"
