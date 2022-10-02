@@ -158,6 +158,15 @@
             class="grid grid-flow-col auto-cols-[100%] sm:auto-cols-[25%] gap-4 pb-4 overflow-x-auto sm:no-snap snap snap-x snap-proximity"
             dir="ltr"
           >
+            <ProjectCard
+              title="Ana Tejedor Díez Portfolio"
+              description="A personal artist and illustrator portfolio."
+              img-src="/images/projects/anatejedordiez-com.jpg"
+              :img-width="1280"
+              :img-height="1280"
+              visit-link-href="https://web.archive.org/web/20220109162253/https://anatejedordiez.com/"
+              read-more-link-href="/projects/anatejedordiez-com"
+            />
 
             <ProjectCard
               title="PermanentLink"

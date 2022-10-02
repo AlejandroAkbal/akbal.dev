@@ -20,7 +20,7 @@ Ultimately, I decided to create my own, while learning Laravel on the process.
 
 **That was a key step in my journey**. Working with Laravel made all the other projects I've worked on, feel inferior. This is how good it is.
 
-The beautiful art displayed in this project is the work of [Ana Tejedor Díez](https://anatejedordiez.com/).
+The beautiful art displayed in this project is the work of [Ana Tejedor Díez](https://web.archive.org/web/20220109162253/https://anatejedordiez.com/).
 
 Finally, its worth mentioning that this is my very first [open startup](https://openstartup.tm/) project.
 This means that all the revenue and metrics are shared in the [open page](https://permanent-link.com/open).
