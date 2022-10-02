@@ -21,7 +21,7 @@ I then moved on to Netlify, as it was a superior service, at the same price.
 
 ## Links
 
-- [Live website](https://old2.akbal.dev).
+- [Web archive](https://web.archive.org/web/20210419154831/https://old2.akbal.dev/).
 - [Source code](https://github.com/AlejandroAkbal/akbal.dev/tree/old/initial-version).
 
 ## Notable Technologies

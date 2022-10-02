@@ -1,6 +1,6 @@
 ---
 title: old.akbal.dev
-description: 'My very first website.'
+description: 'My very first website. Kept as a memory'
 creationDate: '2018-11-21'
 imageUrl: '/images/projects/old-akbal-dev.png'
 imageHeight: 1280

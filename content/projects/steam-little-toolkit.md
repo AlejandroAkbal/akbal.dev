@@ -1,6 +1,6 @@
 ---
 title: Steam Little Toolkit
-description: 'A NSFW Progressive Web Application.'
+description: 'Web extension to improve the Steam store experience.'
 creationDate: '2019-11-25'
 imageUrl: '/images/projects/steam-little-toolkit.jpg'
 imageHeight: 1280

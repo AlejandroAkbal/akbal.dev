@@ -1,6 +1,6 @@
 ---
 title: AnimeBoxes Tag Backup Generator
-description: 'Project information'
+description: 'A web utility.'
 creationDate: '2020-04-04'
 imageUrl: '/images/projects/animeboxes-tag-backup-generator.png'
 imageHeight: 1280

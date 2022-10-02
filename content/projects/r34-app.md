@@ -1,6 +1,6 @@
 ---
 title: Rule 34 App
-description: 'A NSFW Progressive Web Application.'
+description: 'NSFW Progressive Web Application with 40K daily users.'
 creationDate: '2019-11-24'
 imageUrl: '/images/projects/r34-app.png'
 imageHeight: 1280

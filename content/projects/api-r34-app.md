@@ -1,6 +1,6 @@
 ---
 title: Rule 34 API
-description: 'Project information'
+description: 'A JSON API.'
 creationDate: '2019-11-25'
 imageUrl: '/images/projects/api-r34-app.png'
 imageHeight: 1280
