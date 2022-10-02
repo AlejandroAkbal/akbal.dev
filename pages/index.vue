@@ -192,7 +192,7 @@
             <ProjectCard
               title="Torrent Mxchine"
               description="Commercial project for a torrent-based website."
-              img-src="/images/projects/torrent-mx.png"
+              img-src="/images/projects/torrent-mx.jpg"
               :img-width="1280"
               :img-height="1280"
               visit-link-href="https://alejandroakbal.github.io/Torrent.mx"
