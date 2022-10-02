@@ -49,7 +49,7 @@
             </h1>
 
             <h2 class="text-lg font-medium leading-loose text-gray-200">
-              A software engineer based on Spain.
+              A software engineer based in Spain.
             </h2>
 
             <p class="text-gray-300">I have many passions…</p>
@@ -79,18 +79,14 @@
                 </a>
               </li>
 
-              <li>
-                Create designs and mock-ups
-              </li>
+              <li>Manage servers and systems</li>
+
+              <li>Design mock-ups that focus on UX</li>
 
               <li>Delve into accessibility</li>
-
-              <li>Manage servers</li>
             </ul>
 
-            <p class="text-gray-300">
-              And much more.
-            </p>
+            <p class="text-gray-300">And much more.</p>
 
             <div class="mt-4">
               <h3 class="text-center text-gray-200">Find me on</h3>
