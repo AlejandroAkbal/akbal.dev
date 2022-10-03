@@ -66,7 +66,7 @@ export default {
         hid: 'og:image',
         name: 'og:image',
         content:
-          'https://og-image.akbal.dev/**Alejandro%20Akbal**%20Software%20engineer.png?theme=light&md=1&fontSize=125px&widths=350&heights=350',
+          'https://url-shot.api-point.cf/?width=1200&height=630&url=https://akbal.dev',
       },
       {
         hid: 'og:url',
