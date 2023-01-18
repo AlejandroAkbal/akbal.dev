@@ -11,8 +11,7 @@
   },
   "dependencies": {
     "@nuxt/content": "^1.14.0",
-    "nuxt": "^2.15.6",
-    "vue-matomo": "^4.0.0"
+    "nuxt": "^2.15.6"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.6",

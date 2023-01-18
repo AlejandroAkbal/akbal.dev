@@ -9,9 +9,6 @@ export default {
 
   publicRuntimeConfig: {
     NODE_ENV: process.env.NODE_ENV,
-
-    MATOMO_HOST: process.env.MATOMO_HOST,
-    MATOMO_SITE_ID: process.env.MATOMO_SITE_ID,
   },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
@@ -79,8 +76,7 @@ export default {
       {
         rel: 'icon',
         type: 'image/png',
-        href:
-          'https://cdn.statically.io/img/raw.githubusercontent.com/h=32,w=32,q=90/AlejandroAkbal/brand/main/src/assets/Logo_white.png',
+        href: 'https://cdn.statically.io/img/raw.githubusercontent.com/h=32,w=32,q=90/AlejandroAkbal/brand/main/src/assets/Logo_white.png',
       },
 
       // Font
@@ -92,7 +88,7 @@ export default {
   css: [],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [{ src: '~/plugins/vue-matomo.js', mode: 'client' }],
+  plugins: [],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: [{ path: '~/components', pathPrefix: false }],
