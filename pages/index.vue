@@ -146,12 +146,14 @@
             Projects
           </h2>
 
-          <p class="mt-1 text-gray-300">Some of the work that I am most proud of.</p>
+          <p class="mt-1 text-gray-300">
+            Some of the work that I am most proud of.
+          </p>
         </div>
 
         <div class="mt-4">
           <ul
-            class="grid grid-flow-col auto-cols-[100%] sm:auto-cols-[25%] gap-4 pb-4 overflow-x-auto sm:no-snap snap snap-x snap-proximity"
+            class="grid grid-flow-col auto-cols-[100%] sm:auto-cols-[25%] gap-4 pb-4 overflow-x-auto sm:snap-none snap snap-x snap-proximity"
             dir="ltr"
           >
             <ProjectCard
@@ -248,7 +250,12 @@
             </p>
           </div>
 
-          <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+          <form
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+          >
             <input type="hidden" name="form-name" value="contact" />
 
             <div class="grid grid-cols-1 mt-6 gap-y-6 gap-x-4 sm:grid-cols-6">
