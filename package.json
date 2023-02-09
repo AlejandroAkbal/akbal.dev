@@ -27,6 +27,6 @@
     "eslint-plugin-nuxt": "^2.0.0",
     "eslint-plugin-prettier": "^3.4.1",
     "postcss": "^8.4.21",
-    "prettier": "^2.8.3"
+    "prettier": "^2.8.4"
   }
 }
