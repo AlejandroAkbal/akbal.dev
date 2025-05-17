@@ -176,15 +176,15 @@
               read-more-link-href="/projects/permanent-link-com"
             />
 
-            <ProjectCard
-              title="Rule 34 App"
-              description="NSFW Progressive Web Application with 40K daily users."
-              img-src="/images/projects/r34-app.png"
-              :img-width="1600"
-              :img-height="1600"
-              visit-link-href="https://r34.app/?domain=safebooru.org"
-              read-more-link-href="/projects/r34-app"
-            />
+<!--            <ProjectCard-->
+<!--              title="Rule 34 App"-->
+<!--              description="NSFW Progressive Web Application with 40K daily users."-->
+<!--              img-src="/images/projects/r34-app.png"-->
+<!--              :img-width="1600"-->
+<!--              :img-height="1600"-->
+<!--              visit-link-href="https://r34.app/?domain=safebooru.org"-->
+<!--              read-more-link-href="/projects/r34-app"-->
+<!--            />-->
 
             <ProjectCard
               title="Torrent Mxchine"
